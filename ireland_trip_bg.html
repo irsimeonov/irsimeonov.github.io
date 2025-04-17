@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4d221c7e7058bc703745af4544204b05 {
+                #map_c7fbd329465c72f7ffb3be96071536d5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -37,15 +37,19 @@
 </head>
 <body>
     
+    <div style="position: fixed; 
+     bottom: 20px; left: 20px; width: 160px; height: 270px; 
+     background: white; border:2px solid grey; z-index:9999; font-size:13px; overflow:auto;">
+     &nbsp;<b>Легенда дни</b><br>&nbsp;<span style='background:red;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>1</span> Ден 1<br>&nbsp;<span style='background:blue;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>2</span> Ден 2<br>&nbsp;<span style='background:green;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>3</span> Ден 3<br>&nbsp;<span style='background:purple;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>4</span> Ден 4<br>&nbsp;<span style='background:orange;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>5</span> Ден 5<br>&nbsp;<span style='background:darkred;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>6</span> Ден 6<br>&nbsp;<span style='background:darkblue;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>7</span> Ден 7<br>&nbsp;<span style='background:darkgreen;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>8</span> Ден 8<br>&nbsp;<span style='background:pink;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>9</span> Ден 9<br>&nbsp;<span style='background:cadetblue;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>10</span> Ден 10<br>&nbsp;<span style='background:lightblue;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>11</span> Ден 11<br>&nbsp;<span style='background:gray;color:white;padding:0 6px;border-radius:50%;font-weight:bold;'>12</span> Ден 12<br></div>
     
-            <div class="folium-map" id="map_4d221c7e7058bc703745af4544204b05" ></div>
+            <div class="folium-map" id="map_c7fbd329465c72f7ffb3be96071536d5" ></div>
         
 </body>
 <script>
     
     
-            var map_4d221c7e7058bc703745af4544204b05 = L.map(
-                "map_4d221c7e7058bc703745af4544204b05",
+            var map_c7fbd329465c72f7ffb3be96071536d5 = L.map(
+                "map_c7fbd329465c72f7ffb3be96071536d5",
                 {
                     center: [53.3, -7.8],
                     crs: L.CRS.EPSG3857,
@@ -59,41 +63,41 @@
 
         
     
-            var tile_layer_3ccdbf4867889b108ac4724fcf5b89de = L.tileLayer(
+            var tile_layer_1e21f3190ac4aed8528eeae4d370ecf4 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var feature_group_c4b52fed2fc25d319e5656ab8e3fee86 = L.featureGroup(
+            var feature_group_be782296ae4ffd3930b6794bfd37f6f1 = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_796e89170bb9ecbec5fc479560f0a0d2 = L.marker(
+            var marker_03cdd8e34b129751d04eb9a39108b445 = L.marker(
                 [53.3438, -6.2546],
                 {}
-            ).addTo(feature_group_c4b52fed2fc25d319e5656ab8e3fee86);
+            ).addTo(feature_group_be782296ae4ffd3930b6794bfd37f6f1);
         
     
-            var div_icon_75448f893879f8bc53391189be04fff6 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_796e89170bb9ecbec5fc479560f0a0d2.setIcon(div_icon_75448f893879f8bc53391189be04fff6);
+            var div_icon_71c838e6e14bc25b94d4a87ccfdd8d43 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_03cdd8e34b129751d04eb9a39108b445.setIcon(div_icon_71c838e6e14bc25b94d4a87ccfdd8d43);
         
     
-        var popup_55bba632be263319eb71158f18ac37b4 = L.popup({"maxWidth": "100%"});
+        var popup_4c7eb5bb005ccfb6723aaac56f698ed5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_69b9ff6f29a3d235b3c28c30e0fc028e = $(`<div id="html_69b9ff6f29a3d235b3c28c30e0fc028e" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 1</b>: Trinity College Dublin<br>Книгата от Келс и Старата библиотека</div>`)[0];
-            popup_55bba632be263319eb71158f18ac37b4.setContent(html_69b9ff6f29a3d235b3c28c30e0fc028e);
+            var html_e4d2f8fb81ccdc53a46965dc1b793b8c = $(`<div id="html_e4d2f8fb81ccdc53a46965dc1b793b8c" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 1</b>: Trinity College Dublin<br>Книгата от Келс и Старата библиотека</div>`)[0];
+            popup_4c7eb5bb005ccfb6723aaac56f698ed5.setContent(html_e4d2f8fb81ccdc53a46965dc1b793b8c);
         
 
-        marker_796e89170bb9ecbec5fc479560f0a0d2.bindPopup(popup_55bba632be263319eb71158f18ac37b4)
+        marker_03cdd8e34b129751d04eb9a39108b445.bindPopup(popup_4c7eb5bb005ccfb6723aaac56f698ed5)
         ;
 
         
     
     
-            marker_796e89170bb9ecbec5fc479560f0a0d2.bindTooltip(
+            marker_03cdd8e34b129751d04eb9a39108b445.bindTooltip(
                 `<div>
                      Ден 1: Trinity College Dublin
                  </div>`,
@@ -101,30 +105,30 @@
             );
         
     
-            var marker_0be957a4881977c7b81db1662412e6eb = L.marker(
+            var marker_7011acef109db5dda724503348488c7a = L.marker(
                 [53.3429, -6.2675],
                 {}
-            ).addTo(feature_group_c4b52fed2fc25d319e5656ab8e3fee86);
+            ).addTo(feature_group_be782296ae4ffd3930b6794bfd37f6f1);
         
     
-            var div_icon_c0571f9bc9173593f2dca3fa28d91b25 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_0be957a4881977c7b81db1662412e6eb.setIcon(div_icon_c0571f9bc9173593f2dca3fa28d91b25);
+            var div_icon_c653be56c0857f5247c613dc065628b3 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_7011acef109db5dda724503348488c7a.setIcon(div_icon_c653be56c0857f5247c613dc065628b3);
         
     
-        var popup_10c2155a6af7d4ff0543b771c731fcc1 = L.popup({"maxWidth": "100%"});
+        var popup_564fd1897c49d72e6d3c219ccb12da77 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6cb90a9a68303e2e35e84e86a8f9dea4 = $(`<div id="html_6cb90a9a68303e2e35e84e86a8f9dea4" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 2</b>: Dublin Castle<br>Исторически център на властта</div>`)[0];
-            popup_10c2155a6af7d4ff0543b771c731fcc1.setContent(html_6cb90a9a68303e2e35e84e86a8f9dea4);
+            var html_b1356762c85e4823304f53cb71fd027c = $(`<div id="html_b1356762c85e4823304f53cb71fd027c" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 2</b>: Dublin Castle<br>Исторически център на властта</div>`)[0];
+            popup_564fd1897c49d72e6d3c219ccb12da77.setContent(html_b1356762c85e4823304f53cb71fd027c);
         
 
-        marker_0be957a4881977c7b81db1662412e6eb.bindPopup(popup_10c2155a6af7d4ff0543b771c731fcc1)
+        marker_7011acef109db5dda724503348488c7a.bindPopup(popup_564fd1897c49d72e6d3c219ccb12da77)
         ;
 
         
     
     
-            marker_0be957a4881977c7b81db1662412e6eb.bindTooltip(
+            marker_7011acef109db5dda724503348488c7a.bindTooltip(
                 `<div>
                      Ден 1: Dublin Castle
                  </div>`,
@@ -132,30 +136,30 @@
             );
         
     
-            var marker_5b082477c50e1f0d6e7ae2de9f3c5342 = L.marker(
+            var marker_e6a3a7c57e5c53f839ea102584db3cee = L.marker(
                 [53.3407, -6.2545],
                 {}
-            ).addTo(feature_group_c4b52fed2fc25d319e5656ab8e3fee86);
+            ).addTo(feature_group_be782296ae4ffd3930b6794bfd37f6f1);
         
     
-            var div_icon_f48d74e1e13c63501dc6e6e7b71b17d8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_5b082477c50e1f0d6e7ae2de9f3c5342.setIcon(div_icon_f48d74e1e13c63501dc6e6e7b71b17d8);
+            var div_icon_4ab6699eceed6dc5a2f0f5f0e699f830 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_e6a3a7c57e5c53f839ea102584db3cee.setIcon(div_icon_4ab6699eceed6dc5a2f0f5f0e699f830);
         
     
-        var popup_c57b348305a678e8ca2aa8f82849e999 = L.popup({"maxWidth": "100%"});
+        var popup_cceb94aa5017126309c21d6d47ff1509 = L.popup({"maxWidth": "100%"});
 
         
-            var html_0fd035465d8d50659ec2e442b6d88689 = $(`<div id="html_0fd035465d8d50659ec2e442b6d88689" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 3</b>: National Museum of Archaeology<br>Келтски и викингски артефакти</div>`)[0];
-            popup_c57b348305a678e8ca2aa8f82849e999.setContent(html_0fd035465d8d50659ec2e442b6d88689);
+            var html_fda5704f56e7a4c067e9bca0034b6d68 = $(`<div id="html_fda5704f56e7a4c067e9bca0034b6d68" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 3</b>: National Museum of Archaeology<br>Келтски и викингски артефакти</div>`)[0];
+            popup_cceb94aa5017126309c21d6d47ff1509.setContent(html_fda5704f56e7a4c067e9bca0034b6d68);
         
 
-        marker_5b082477c50e1f0d6e7ae2de9f3c5342.bindPopup(popup_c57b348305a678e8ca2aa8f82849e999)
+        marker_e6a3a7c57e5c53f839ea102584db3cee.bindPopup(popup_cceb94aa5017126309c21d6d47ff1509)
         ;
 
         
     
     
-            marker_5b082477c50e1f0d6e7ae2de9f3c5342.bindTooltip(
+            marker_e6a3a7c57e5c53f839ea102584db3cee.bindTooltip(
                 `<div>
                      Ден 1: National Museum of Archaeology
                  </div>`,
@@ -163,30 +167,30 @@
             );
         
     
-            var marker_26b1b1d23b6acc42ed79dbbe695dfc15 = L.marker(
+            var marker_495a9ca0406e1fc70c13588e9d6f2d84 = L.marker(
                 [53.3394, -6.2711],
                 {}
-            ).addTo(feature_group_c4b52fed2fc25d319e5656ab8e3fee86);
+            ).addTo(feature_group_be782296ae4ffd3930b6794bfd37f6f1);
         
     
-            var div_icon_58acad179f5f370630f9aa2c94c67ad9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_26b1b1d23b6acc42ed79dbbe695dfc15.setIcon(div_icon_58acad179f5f370630f9aa2c94c67ad9);
+            var div_icon_c7dd972772f2816151bd0e8d3bac76b0 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_495a9ca0406e1fc70c13588e9d6f2d84.setIcon(div_icon_c7dd972772f2816151bd0e8d3bac76b0);
         
     
-        var popup_32c234aa4b2dfb6ca3434ec992882ea5 = L.popup({"maxWidth": "100%"});
+        var popup_799c54bd9017019d88a331558c68057f = L.popup({"maxWidth": "100%"});
 
         
-            var html_b49d52187ae0520b8dccbe641a69729f = $(`<div id="html_b49d52187ae0520b8dccbe641a69729f" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 4</b>: St Patrick's Cathedral<br>Най‑голямата църква в Ирландия</div>`)[0];
-            popup_32c234aa4b2dfb6ca3434ec992882ea5.setContent(html_b49d52187ae0520b8dccbe641a69729f);
+            var html_cf12857338ae184a4dc6c29f48f64849 = $(`<div id="html_cf12857338ae184a4dc6c29f48f64849" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 4</b>: St Patrick's Cathedral<br>Най‑голямата църква в Ирландия</div>`)[0];
+            popup_799c54bd9017019d88a331558c68057f.setContent(html_cf12857338ae184a4dc6c29f48f64849);
         
 
-        marker_26b1b1d23b6acc42ed79dbbe695dfc15.bindPopup(popup_32c234aa4b2dfb6ca3434ec992882ea5)
+        marker_495a9ca0406e1fc70c13588e9d6f2d84.bindPopup(popup_799c54bd9017019d88a331558c68057f)
         ;
 
         
     
     
-            marker_26b1b1d23b6acc42ed79dbbe695dfc15.bindTooltip(
+            marker_495a9ca0406e1fc70c13588e9d6f2d84.bindTooltip(
                 `<div>
                      Ден 1: St Patrick's Cathedral
                  </div>`,
@@ -194,30 +198,30 @@
             );
         
     
-            var marker_2003d0d02bbc1a68adbef9372e059461 = L.marker(
+            var marker_4ca6dc8323ea6ae0d3c7f9beab48ad69 = L.marker(
                 [53.346, -6.2633],
                 {}
-            ).addTo(feature_group_c4b52fed2fc25d319e5656ab8e3fee86);
+            ).addTo(feature_group_be782296ae4ffd3930b6794bfd37f6f1);
         
     
-            var div_icon_f16d2e38b404ad6e7e4c08b095d86e65 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e5\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_2003d0d02bbc1a68adbef9372e059461.setIcon(div_icon_f16d2e38b404ad6e7e4c08b095d86e65);
+            var div_icon_ded29e4c8ad21cdc2eee91864e955526 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:red;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e5\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_4ca6dc8323ea6ae0d3c7f9beab48ad69.setIcon(div_icon_ded29e4c8ad21cdc2eee91864e955526);
         
     
-        var popup_1d2413e2e50f899b6331639cf884426f = L.popup({"maxWidth": "100%"});
+        var popup_305cfd1a2a42ca6209d8683216f69515 = L.popup({"maxWidth": "100%"});
 
         
-            var html_e18d24541d64b9a0dd13a98da19cda0b = $(`<div id="html_e18d24541d64b9a0dd13a98da19cda0b" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 5</b>: Temple Bar / Ha'penny Bridge<br>Емблематичен мост и културен квартал</div>`)[0];
-            popup_1d2413e2e50f899b6331639cf884426f.setContent(html_e18d24541d64b9a0dd13a98da19cda0b);
+            var html_5819ffbb0c5b418692b213aa4dbcbcb7 = $(`<div id="html_5819ffbb0c5b418692b213aa4dbcbcb7" style="width: 100.0%; height: 100.0%;"><b>Ден 1 – 5</b>: Temple Bar / Ha'penny Bridge<br>Емблематичен мост и Temple Bar</div>`)[0];
+            popup_305cfd1a2a42ca6209d8683216f69515.setContent(html_5819ffbb0c5b418692b213aa4dbcbcb7);
         
 
-        marker_2003d0d02bbc1a68adbef9372e059461.bindPopup(popup_1d2413e2e50f899b6331639cf884426f)
+        marker_4ca6dc8323ea6ae0d3c7f9beab48ad69.bindPopup(popup_305cfd1a2a42ca6209d8683216f69515)
         ;
 
         
     
     
-            marker_2003d0d02bbc1a68adbef9372e059461.bindTooltip(
+            marker_4ca6dc8323ea6ae0d3c7f9beab48ad69.bindTooltip(
                 `<div>
                      Ден 1: Temple Bar / Ha'penny Bridge
                  </div>`,
@@ -225,35 +229,35 @@
             );
         
     
-            var feature_group_8d2357494ea880ff3a95a12ce75fd944 = L.featureGroup(
+            var feature_group_8429523e5b92c64cf0c41b327bd5738c = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_a8d97376a2b792891b621a1208c1ba4e = L.marker(
+            var marker_d1909f297a72664b7bb089e3015a6a8e = L.marker(
                 [53.3382, -6.2591],
                 {}
-            ).addTo(feature_group_8d2357494ea880ff3a95a12ce75fd944);
+            ).addTo(feature_group_8429523e5b92c64cf0c41b327bd5738c);
         
     
-            var div_icon_4cc82c0916fe7f94f9734a6566c8eee8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_a8d97376a2b792891b621a1208c1ba4e.setIcon(div_icon_4cc82c0916fe7f94f9734a6566c8eee8);
+            var div_icon_6d38c71d558aa84934971348cd10f946 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_d1909f297a72664b7bb089e3015a6a8e.setIcon(div_icon_6d38c71d558aa84934971348cd10f946);
         
     
-        var popup_7cdb59a05c65204cfd7afc12589e31c2 = L.popup({"maxWidth": "100%"});
+        var popup_57870e5fa9861c280baba412f1d95850 = L.popup({"maxWidth": "100%"});
 
         
-            var html_fd4a47aa1374d8266998d52cebfd3d80 = $(`<div id="html_fd4a47aa1374d8266998d52cebfd3d80" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 1</b>: St Stephen's Green<br>Градски парк</div>`)[0];
-            popup_7cdb59a05c65204cfd7afc12589e31c2.setContent(html_fd4a47aa1374d8266998d52cebfd3d80);
+            var html_c0274616e7ef9e6ea4aaf587670133a5 = $(`<div id="html_c0274616e7ef9e6ea4aaf587670133a5" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 1</b>: St Stephen's Green<br>Градски парк</div>`)[0];
+            popup_57870e5fa9861c280baba412f1d95850.setContent(html_c0274616e7ef9e6ea4aaf587670133a5);
         
 
-        marker_a8d97376a2b792891b621a1208c1ba4e.bindPopup(popup_7cdb59a05c65204cfd7afc12589e31c2)
+        marker_d1909f297a72664b7bb089e3015a6a8e.bindPopup(popup_57870e5fa9861c280baba412f1d95850)
         ;
 
         
     
     
-            marker_a8d97376a2b792891b621a1208c1ba4e.bindTooltip(
+            marker_d1909f297a72664b7bb089e3015a6a8e.bindTooltip(
                 `<div>
                      Ден 2: St Stephen's Green
                  </div>`,
@@ -261,30 +265,30 @@
             );
         
     
-            var marker_b9502ae89fd73ae33d08709aef6c815c = L.marker(
+            var marker_56827148637e3647aba87b676c5ef71b = L.marker(
                 [53.3405, -6.2507],
                 {}
-            ).addTo(feature_group_8d2357494ea880ff3a95a12ce75fd944);
+            ).addTo(feature_group_8429523e5b92c64cf0c41b327bd5738c);
         
     
-            var div_icon_90ed00380b7f5a3a0c0a79c4b5ee1657 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_b9502ae89fd73ae33d08709aef6c815c.setIcon(div_icon_90ed00380b7f5a3a0c0a79c4b5ee1657);
+            var div_icon_e08757f433bd40ec07709cf58a41d863 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_56827148637e3647aba87b676c5ef71b.setIcon(div_icon_e08757f433bd40ec07709cf58a41d863);
         
     
-        var popup_e87e3d301546bd2712b67bfff2da9276 = L.popup({"maxWidth": "100%"});
+        var popup_638b2a022690df1a993d2aab1b159436 = L.popup({"maxWidth": "100%"});
 
         
-            var html_184c2ef64ecae109aa998644b20b840e = $(`<div id="html_184c2ef64ecae109aa998644b20b840e" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 2</b>: National Gallery of Ireland<br>Колекция от ирландско и европейско изкуство</div>`)[0];
-            popup_e87e3d301546bd2712b67bfff2da9276.setContent(html_184c2ef64ecae109aa998644b20b840e);
+            var html_dec39b6236ba539e2c5c6e60216e1ded = $(`<div id="html_dec39b6236ba539e2c5c6e60216e1ded" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 2</b>: National Gallery of Ireland<br>Ирландско и европейско изкуство</div>`)[0];
+            popup_638b2a022690df1a993d2aab1b159436.setContent(html_dec39b6236ba539e2c5c6e60216e1ded);
         
 
-        marker_b9502ae89fd73ae33d08709aef6c815c.bindPopup(popup_e87e3d301546bd2712b67bfff2da9276)
+        marker_56827148637e3647aba87b676c5ef71b.bindPopup(popup_638b2a022690df1a993d2aab1b159436)
         ;
 
         
     
     
-            marker_b9502ae89fd73ae33d08709aef6c815c.bindTooltip(
+            marker_56827148637e3647aba87b676c5ef71b.bindTooltip(
                 `<div>
                      Ден 2: National Gallery of Ireland
                  </div>`,
@@ -292,30 +296,30 @@
             );
         
     
-            var marker_916384c6a3811f18e0a8a58e7d40edc6 = L.marker(
+            var marker_9e78a18712e151a7d82eb1a216a0b141 = L.marker(
                 [53.3478, -6.2275],
                 {}
-            ).addTo(feature_group_8d2357494ea880ff3a95a12ce75fd944);
+            ).addTo(feature_group_8429523e5b92c64cf0c41b327bd5738c);
         
     
-            var div_icon_c690ab46714f5d3aea2c0445a84dfc7f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_916384c6a3811f18e0a8a58e7d40edc6.setIcon(div_icon_c690ab46714f5d3aea2c0445a84dfc7f);
+            var div_icon_acf5972e339205c2767f2c4d768cd96d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_9e78a18712e151a7d82eb1a216a0b141.setIcon(div_icon_acf5972e339205c2767f2c4d768cd96d);
         
     
-        var popup_b8a4cc98f4e1ae9e8e56a3326041d151 = L.popup({"maxWidth": "100%"});
+        var popup_3861a11a0eda46545f54150f26a5f4fb = L.popup({"maxWidth": "100%"});
 
         
-            var html_478106e71bd418fd4d69ac90c2baf729 = $(`<div id="html_478106e71bd418fd4d69ac90c2baf729" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 3</b>: EPIC Museum<br>Интерактивен музей на ирландската диаспора</div>`)[0];
-            popup_b8a4cc98f4e1ae9e8e56a3326041d151.setContent(html_478106e71bd418fd4d69ac90c2baf729);
+            var html_4616b36d94c1b6c01434d8fc3aafd3ba = $(`<div id="html_4616b36d94c1b6c01434d8fc3aafd3ba" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 3</b>: EPIC Museum<br>Музей на диаспората</div>`)[0];
+            popup_3861a11a0eda46545f54150f26a5f4fb.setContent(html_4616b36d94c1b6c01434d8fc3aafd3ba);
         
 
-        marker_916384c6a3811f18e0a8a58e7d40edc6.bindPopup(popup_b8a4cc98f4e1ae9e8e56a3326041d151)
+        marker_9e78a18712e151a7d82eb1a216a0b141.bindPopup(popup_3861a11a0eda46545f54150f26a5f4fb)
         ;
 
         
     
     
-            marker_916384c6a3811f18e0a8a58e7d40edc6.bindTooltip(
+            marker_9e78a18712e151a7d82eb1a216a0b141.bindTooltip(
                 `<div>
                      Ден 2: EPIC Museum
                  </div>`,
@@ -323,30 +327,30 @@
             );
         
     
-            var marker_43eb87f1282c048fe758c59aeaed9088 = L.marker(
+            var marker_f346cb2950f129bc113fd1ca30669930 = L.marker(
                 [53.3436, -6.2607],
                 {}
-            ).addTo(feature_group_8d2357494ea880ff3a95a12ce75fd944);
+            ).addTo(feature_group_8429523e5b92c64cf0c41b327bd5738c);
         
     
-            var div_icon_16256330594b3fa6ec080093f8a1a25d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_43eb87f1282c048fe758c59aeaed9088.setIcon(div_icon_16256330594b3fa6ec080093f8a1a25d);
+            var div_icon_ed64b8d1b370937843168a158c691ecb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_f346cb2950f129bc113fd1ca30669930.setIcon(div_icon_ed64b8d1b370937843168a158c691ecb);
         
     
-        var popup_54cfe0ca4f697a624e920baf68e025ec = L.popup({"maxWidth": "100%"});
+        var popup_a50c2c53d76e426895f03712e865cc79 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ac1e8c7552d9cc70629e574dc3b272c9 = $(`<div id="html_ac1e8c7552d9cc70629e574dc3b272c9" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 4</b>: Cornucopia Veg Restaurant<br>Вегетариански и веган ресторант</div>`)[0];
-            popup_54cfe0ca4f697a624e920baf68e025ec.setContent(html_ac1e8c7552d9cc70629e574dc3b272c9);
+            var html_895ff17e19be37bba77cba47018ea1db = $(`<div id="html_895ff17e19be37bba77cba47018ea1db" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 4</b>: Cornucopia Veg Restaurant<br>Вегетариански / веган ресторант</div>`)[0];
+            popup_a50c2c53d76e426895f03712e865cc79.setContent(html_895ff17e19be37bba77cba47018ea1db);
         
 
-        marker_43eb87f1282c048fe758c59aeaed9088.bindPopup(popup_54cfe0ca4f697a624e920baf68e025ec)
+        marker_f346cb2950f129bc113fd1ca30669930.bindPopup(popup_a50c2c53d76e426895f03712e865cc79)
         ;
 
         
     
     
-            marker_43eb87f1282c048fe758c59aeaed9088.bindTooltip(
+            marker_f346cb2950f129bc113fd1ca30669930.bindTooltip(
                 `<div>
                      Ден 2: Cornucopia Veg Restaurant
                  </div>`,
@@ -354,30 +358,30 @@
             );
         
     
-            var marker_65a93d47afd84cd3d04847291efc6e09 = L.marker(
+            var marker_357578a782ceb2a8f743381c0f78c3b8 = L.marker(
                 [53.3451, -6.2603],
                 {}
-            ).addTo(feature_group_8d2357494ea880ff3a95a12ce75fd944);
+            ).addTo(feature_group_8429523e5b92c64cf0c41b327bd5738c);
         
     
-            var div_icon_9d28f0aa41795945576a7d5fd7fef59f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e5\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_65a93d47afd84cd3d04847291efc6e09.setIcon(div_icon_9d28f0aa41795945576a7d5fd7fef59f);
+            var div_icon_d55bc0feac583fdc83b21b022f5daf5b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:blue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e5\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_357578a782ceb2a8f743381c0f78c3b8.setIcon(div_icon_d55bc0feac583fdc83b21b022f5daf5b);
         
     
-        var popup_070d3f66a6c3172ed2b0c7c7ad33c259 = L.popup({"maxWidth": "100%"});
+        var popup_7ddd76d164b104e46ad13e6c1f0648ba = L.popup({"maxWidth": "100%"});
 
         
-            var html_000a276f97a2ecbdcb7229efb5d85db6 = $(`<div id="html_000a276f97a2ecbdcb7229efb5d85db6" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 5</b>: Palace Bar<br>Викториански пъб с традиционна музика</div>`)[0];
-            popup_070d3f66a6c3172ed2b0c7c7ad33c259.setContent(html_000a276f97a2ecbdcb7229efb5d85db6);
+            var html_c0f10737eab9fa63734baec8eee47a46 = $(`<div id="html_c0f10737eab9fa63734baec8eee47a46" style="width: 100.0%; height: 100.0%;"><b>Ден 2 – 5</b>: Palace Bar<br>Пъб с традиционна музика</div>`)[0];
+            popup_7ddd76d164b104e46ad13e6c1f0648ba.setContent(html_c0f10737eab9fa63734baec8eee47a46);
         
 
-        marker_65a93d47afd84cd3d04847291efc6e09.bindPopup(popup_070d3f66a6c3172ed2b0c7c7ad33c259)
+        marker_357578a782ceb2a8f743381c0f78c3b8.bindPopup(popup_7ddd76d164b104e46ad13e6c1f0648ba)
         ;
 
         
     
     
-            marker_65a93d47afd84cd3d04847291efc6e09.bindTooltip(
+            marker_357578a782ceb2a8f743381c0f78c3b8.bindTooltip(
                 `<div>
                      Ден 2: Palace Bar
                  </div>`,
@@ -385,35 +389,35 @@
             );
         
     
-            var feature_group_862f24ed8f92bdec50dd4e22e85b1fe2 = L.featureGroup(
+            var feature_group_e7fd4e76d8cde22a8376564a148736b4 = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_c741ff2e6ae96451c57930d3d3d30bd6 = L.marker(
+            var marker_a8f233bc638a58d7fb118f48a215f096 = L.marker(
                 [53.3268, -7.9864],
                 {}
-            ).addTo(feature_group_862f24ed8f92bdec50dd4e22e85b1fe2);
+            ).addTo(feature_group_e7fd4e76d8cde22a8376564a148736b4);
         
     
-            var div_icon_72dca5efdca85ac5f11478ebc923a3a6 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:green;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_c741ff2e6ae96451c57930d3d3d30bd6.setIcon(div_icon_72dca5efdca85ac5f11478ebc923a3a6);
+            var div_icon_72d6c0c916c83bae1cd113ae93db0560 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:green;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_a8f233bc638a58d7fb118f48a215f096.setIcon(div_icon_72d6c0c916c83bae1cd113ae93db0560);
         
     
-        var popup_d9a2f16458f9ceb65e0c305d4ea6473f = L.popup({"maxWidth": "100%"});
+        var popup_895c5f3d1234d787d4896119d4af6537 = L.popup({"maxWidth": "100%"});
 
         
-            var html_acce1feb1858fe9294195d3a3e46f1c7 = $(`<div id="html_acce1feb1858fe9294195d3a3e46f1c7" style="width: 100.0%; height: 100.0%;"><b>Ден 3 – 1</b>: Clonmacnoise<br>Монашески комплекс от VI век на р. Шанън</div>`)[0];
-            popup_d9a2f16458f9ceb65e0c305d4ea6473f.setContent(html_acce1feb1858fe9294195d3a3e46f1c7);
+            var html_c67c8632da6094f584a34fede44e2c8f = $(`<div id="html_c67c8632da6094f584a34fede44e2c8f" style="width: 100.0%; height: 100.0%;"><b>Ден 3 – 1</b>: Clonmacnoise<br>Монашески комплекс VI в.</div>`)[0];
+            popup_895c5f3d1234d787d4896119d4af6537.setContent(html_c67c8632da6094f584a34fede44e2c8f);
         
 
-        marker_c741ff2e6ae96451c57930d3d3d30bd6.bindPopup(popup_d9a2f16458f9ceb65e0c305d4ea6473f)
+        marker_a8f233bc638a58d7fb118f48a215f096.bindPopup(popup_895c5f3d1234d787d4896119d4af6537)
         ;
 
         
     
     
-            marker_c741ff2e6ae96451c57930d3d3d30bd6.bindTooltip(
+            marker_a8f233bc638a58d7fb118f48a215f096.bindTooltip(
                 `<div>
                      Ден 3: Clonmacnoise
                  </div>`,
@@ -421,30 +425,30 @@
             );
         
     
-            var marker_9caf0074133e267105db43e4418c6a94 = L.marker(
+            var marker_90b507f2d9a647ac540cacaf1a156d60 = L.marker(
                 [53.2697, -9.053],
                 {}
-            ).addTo(feature_group_862f24ed8f92bdec50dd4e22e85b1fe2);
+            ).addTo(feature_group_e7fd4e76d8cde22a8376564a148736b4);
         
     
-            var div_icon_170c39b53b6fe8eee61c46d7e08d20ba = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:green;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_9caf0074133e267105db43e4418c6a94.setIcon(div_icon_170c39b53b6fe8eee61c46d7e08d20ba);
+            var div_icon_07b07585ea8af6dd372d8fb9b2299f39 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:green;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_90b507f2d9a647ac540cacaf1a156d60.setIcon(div_icon_07b07585ea8af6dd372d8fb9b2299f39);
         
     
-        var popup_eae107fcd4e010c2354a82b99df8a867 = L.popup({"maxWidth": "100%"});
+        var popup_c9a385b42b33b59cf24838ef9dbc53b1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_acc5b674a9a647b278e38654f259ec55 = $(`<div id="html_acc5b674a9a647b278e38654f259ec55" style="width: 100.0%; height: 100.0%;"><b>Ден 3 – 2</b>: Spanish Arch Galway<br>Историческа арка и Латински квартал</div>`)[0];
-            popup_eae107fcd4e010c2354a82b99df8a867.setContent(html_acc5b674a9a647b278e38654f259ec55);
+            var html_061a302cbd73cd5f5ee77aa7647872c1 = $(`<div id="html_061a302cbd73cd5f5ee77aa7647872c1" style="width: 100.0%; height: 100.0%;"><b>Ден 3 – 2</b>: Spanish Arch Galway<br>Историческа арка и Latin Quarter</div>`)[0];
+            popup_c9a385b42b33b59cf24838ef9dbc53b1.setContent(html_061a302cbd73cd5f5ee77aa7647872c1);
         
 
-        marker_9caf0074133e267105db43e4418c6a94.bindPopup(popup_eae107fcd4e010c2354a82b99df8a867)
+        marker_90b507f2d9a647ac540cacaf1a156d60.bindPopup(popup_c9a385b42b33b59cf24838ef9dbc53b1)
         ;
 
         
     
     
-            marker_9caf0074133e267105db43e4418c6a94.bindTooltip(
+            marker_90b507f2d9a647ac540cacaf1a156d60.bindTooltip(
                 `<div>
                      Ден 3: Spanish Arch Galway
                  </div>`,
@@ -452,35 +456,35 @@
             );
         
     
-            var feature_group_8e325c6b99059b496e0a778de67ef9d1 = L.featureGroup(
+            var feature_group_df49bc47b831f373706e018618c6c0da = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_54063f7c36088d7fee31727a5deb4d07 = L.marker(
+            var marker_6b6fa6876038390783e9bfff94facd82 = L.marker(
                 [53.5615, -9.8895],
                 {}
-            ).addTo(feature_group_8e325c6b99059b496e0a778de67ef9d1);
+            ).addTo(feature_group_df49bc47b831f373706e018618c6c0da);
         
     
-            var div_icon_110e167421859edba096110a3c1b5b2a = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_54063f7c36088d7fee31727a5deb4d07.setIcon(div_icon_110e167421859edba096110a3c1b5b2a);
+            var div_icon_f47bd772753a9ad3f7805df78baee14c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_6b6fa6876038390783e9bfff94facd82.setIcon(div_icon_f47bd772753a9ad3f7805df78baee14c);
         
     
-        var popup_3c41f060ede973e378a9d572852af112 = L.popup({"maxWidth": "100%"});
+        var popup_b80e3e50e92bf2512e38293159804dfd = L.popup({"maxWidth": "100%"});
 
         
-            var html_0c2f2293cc1ea13b2e72034956a70c03 = $(`<div id="html_0c2f2293cc1ea13b2e72034956a70c03" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 1</b>: Kylemore Abbey<br>Неоготическо абатство на брега на езеро</div>`)[0];
-            popup_3c41f060ede973e378a9d572852af112.setContent(html_0c2f2293cc1ea13b2e72034956a70c03);
+            var html_d005061cf2b1f5601a7f920c5d1cd5a6 = $(`<div id="html_d005061cf2b1f5601a7f920c5d1cd5a6" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 1</b>: Kylemore Abbey<br>Неоготическо абатство</div>`)[0];
+            popup_b80e3e50e92bf2512e38293159804dfd.setContent(html_d005061cf2b1f5601a7f920c5d1cd5a6);
         
 
-        marker_54063f7c36088d7fee31727a5deb4d07.bindPopup(popup_3c41f060ede973e378a9d572852af112)
+        marker_6b6fa6876038390783e9bfff94facd82.bindPopup(popup_b80e3e50e92bf2512e38293159804dfd)
         ;
 
         
     
     
-            marker_54063f7c36088d7fee31727a5deb4d07.bindTooltip(
+            marker_6b6fa6876038390783e9bfff94facd82.bindTooltip(
                 `<div>
                      Ден 4: Kylemore Abbey
                  </div>`,
@@ -488,30 +492,30 @@
             );
         
     
-            var marker_354adf11cea59702fd4124a3c170b914 = L.marker(
+            var marker_6fdbb182ae6e5035763515c5e2e0279e = L.marker(
                 [53.487, -10.022],
                 {}
-            ).addTo(feature_group_8e325c6b99059b496e0a778de67ef9d1);
+            ).addTo(feature_group_df49bc47b831f373706e018618c6c0da);
         
     
-            var div_icon_91f286f0703fb848d99d522bc2468603 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_354adf11cea59702fd4124a3c170b914.setIcon(div_icon_91f286f0703fb848d99d522bc2468603);
+            var div_icon_747de183dc324014ed7f3bec30e931c5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_6fdbb182ae6e5035763515c5e2e0279e.setIcon(div_icon_747de183dc324014ed7f3bec30e931c5);
         
     
-        var popup_6ea01fefd325bcc16804752a7886173e = L.popup({"maxWidth": "100%"});
+        var popup_b87ec6ecce92803ade77a4a45b77abe7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_384410db4f33dc3411ebb6e90f74a83e = $(`<div id="html_384410db4f33dc3411ebb6e90f74a83e" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 2</b>: Sky Road Viewpoint<br>Панорамен участък от Дивия атлантически път</div>`)[0];
-            popup_6ea01fefd325bcc16804752a7886173e.setContent(html_384410db4f33dc3411ebb6e90f74a83e);
+            var html_d3d067f9eadfaa91f144e9e3123743cd = $(`<div id="html_d3d067f9eadfaa91f144e9e3123743cd" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 2</b>: Sky Road Viewpoint<br>Панорамен маршрут</div>`)[0];
+            popup_b87ec6ecce92803ade77a4a45b77abe7.setContent(html_d3d067f9eadfaa91f144e9e3123743cd);
         
 
-        marker_354adf11cea59702fd4124a3c170b914.bindPopup(popup_6ea01fefd325bcc16804752a7886173e)
+        marker_6fdbb182ae6e5035763515c5e2e0279e.bindPopup(popup_b87ec6ecce92803ade77a4a45b77abe7)
         ;
 
         
     
     
-            marker_354adf11cea59702fd4124a3c170b914.bindTooltip(
+            marker_6fdbb182ae6e5035763515c5e2e0279e.bindTooltip(
                 `<div>
                      Ден 4: Sky Road Viewpoint
                  </div>`,
@@ -519,30 +523,30 @@
             );
         
     
-            var marker_261cb723f31e2406c8f3ed788fa18ee0 = L.marker(
+            var marker_5cf6730d6d57556f044ff8f1192e0fc0 = L.marker(
                 [53.392, -9.922],
                 {}
-            ).addTo(feature_group_8e325c6b99059b496e0a778de67ef9d1);
+            ).addTo(feature_group_df49bc47b831f373706e018618c6c0da);
         
     
-            var div_icon_46fc8db6a8002e757a4f68ff75c6eddb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_261cb723f31e2406c8f3ed788fa18ee0.setIcon(div_icon_46fc8db6a8002e757a4f68ff75c6eddb);
+            var div_icon_b9b31cd7f4d291302a07b26f7ec79d8b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:purple;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_5cf6730d6d57556f044ff8f1192e0fc0.setIcon(div_icon_b9b31cd7f4d291302a07b26f7ec79d8b);
         
     
-        var popup_c7ad5a30a431f3e7318b49671e70c790 = L.popup({"maxWidth": "100%"});
+        var popup_5ca21dc01973663431e663d49ec6dd7e = L.popup({"maxWidth": "100%"});
 
         
-            var html_c3a4f433b7288d51fb6f6571d2eb9e3f = $(`<div id="html_c3a4f433b7288d51fb6f6571d2eb9e3f" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 3</b>: Roundstone Village<br>Живописно пристанищно селце</div>`)[0];
-            popup_c7ad5a30a431f3e7318b49671e70c790.setContent(html_c3a4f433b7288d51fb6f6571d2eb9e3f);
+            var html_67a30f35aad8e4eddb68cc5f65a34e2d = $(`<div id="html_67a30f35aad8e4eddb68cc5f65a34e2d" style="width: 100.0%; height: 100.0%;"><b>Ден 4 – 3</b>: Roundstone Village<br>Живописно селище</div>`)[0];
+            popup_5ca21dc01973663431e663d49ec6dd7e.setContent(html_67a30f35aad8e4eddb68cc5f65a34e2d);
         
 
-        marker_261cb723f31e2406c8f3ed788fa18ee0.bindPopup(popup_c7ad5a30a431f3e7318b49671e70c790)
+        marker_5cf6730d6d57556f044ff8f1192e0fc0.bindPopup(popup_5ca21dc01973663431e663d49ec6dd7e)
         ;
 
         
     
     
-            marker_261cb723f31e2406c8f3ed788fa18ee0.bindTooltip(
+            marker_5cf6730d6d57556f044ff8f1192e0fc0.bindTooltip(
                 `<div>
                      Ден 4: Roundstone Village
                  </div>`,
@@ -550,35 +554,35 @@
             );
         
     
-            var feature_group_b67471bdc1e58b7abe07bf0adfdf9684 = L.featureGroup(
+            var feature_group_bca947eb665bf92fc5bbb0e81206d94c = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_deea773557f86dc9156a29222bea22ec = L.marker(
+            var marker_796eff9096d171d64b41dc5eb8413949 = L.marker(
                 [53.047, -9.1402],
                 {}
-            ).addTo(feature_group_b67471bdc1e58b7abe07bf0adfdf9684);
+            ).addTo(feature_group_bca947eb665bf92fc5bbb0e81206d94c);
         
     
-            var div_icon_58e56537a4e263fceb3c9963741e8411 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_deea773557f86dc9156a29222bea22ec.setIcon(div_icon_58e56537a4e263fceb3c9963741e8411);
+            var div_icon_85267171d685135a394a2b86414e4c3d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_796eff9096d171d64b41dc5eb8413949.setIcon(div_icon_85267171d685135a394a2b86414e4c3d);
         
     
-        var popup_82b8f7e6a1a6ecc9b2e1ce3db515f713 = L.popup({"maxWidth": "100%"});
+        var popup_26348b982481380010aa74cd96c81f6b = L.popup({"maxWidth": "100%"});
 
         
-            var html_b0fc71d88c908f1f5d344bf32dcfc209 = $(`<div id="html_b0fc71d88c908f1f5d344bf32dcfc209" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 1</b>: Poulnabrone Dolmen<br>Портален долмен на 5000 години</div>`)[0];
-            popup_82b8f7e6a1a6ecc9b2e1ce3db515f713.setContent(html_b0fc71d88c908f1f5d344bf32dcfc209);
+            var html_9d53b831a57b9a333c197b650526a6c1 = $(`<div id="html_9d53b831a57b9a333c197b650526a6c1" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 1</b>: Poulnabrone Dolmen<br>Долмен на 5000 г.</div>`)[0];
+            popup_26348b982481380010aa74cd96c81f6b.setContent(html_9d53b831a57b9a333c197b650526a6c1);
         
 
-        marker_deea773557f86dc9156a29222bea22ec.bindPopup(popup_82b8f7e6a1a6ecc9b2e1ce3db515f713)
+        marker_796eff9096d171d64b41dc5eb8413949.bindPopup(popup_26348b982481380010aa74cd96c81f6b)
         ;
 
         
     
     
-            marker_deea773557f86dc9156a29222bea22ec.bindTooltip(
+            marker_796eff9096d171d64b41dc5eb8413949.bindTooltip(
                 `<div>
                      Ден 5: Poulnabrone Dolmen
                  </div>`,
@@ -586,30 +590,30 @@
             );
         
     
-            var marker_f3d05a9b6c6d2a3f16ffbc759ffa0461 = L.marker(
+            var marker_0a4015c9cb803c396deb1c67b343f57b = L.marker(
                 [52.9723, -9.4309],
                 {}
-            ).addTo(feature_group_b67471bdc1e58b7abe07bf0adfdf9684);
+            ).addTo(feature_group_bca947eb665bf92fc5bbb0e81206d94c);
         
     
-            var div_icon_5fadedfa2fc69a1f49a9d506b2c9a8a4 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_f3d05a9b6c6d2a3f16ffbc759ffa0461.setIcon(div_icon_5fadedfa2fc69a1f49a9d506b2c9a8a4);
+            var div_icon_eaa1f957b76c77e751f2531dd66991fa = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_0a4015c9cb803c396deb1c67b343f57b.setIcon(div_icon_eaa1f957b76c77e751f2531dd66991fa);
         
     
-        var popup_182e7299b8ddf5a6668638b39501f39e = L.popup({"maxWidth": "100%"});
+        var popup_e73ec437ab214a35085a2a10ca2c9489 = L.popup({"maxWidth": "100%"});
 
         
-            var html_2889462e2c059e6f3b2bd6db48d2b1a4 = $(`<div id="html_2889462e2c059e6f3b2bd6db48d2b1a4" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 2</b>: Cliffs of Moher<br>214‑метрови атлантически скали</div>`)[0];
-            popup_182e7299b8ddf5a6668638b39501f39e.setContent(html_2889462e2c059e6f3b2bd6db48d2b1a4);
+            var html_0244f29f5517ec1464452a3c4f349c2d = $(`<div id="html_0244f29f5517ec1464452a3c4f349c2d" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 2</b>: Cliffs of Moher<br>214 м атлантически скали</div>`)[0];
+            popup_e73ec437ab214a35085a2a10ca2c9489.setContent(html_0244f29f5517ec1464452a3c4f349c2d);
         
 
-        marker_f3d05a9b6c6d2a3f16ffbc759ffa0461.bindPopup(popup_182e7299b8ddf5a6668638b39501f39e)
+        marker_0a4015c9cb803c396deb1c67b343f57b.bindPopup(popup_e73ec437ab214a35085a2a10ca2c9489)
         ;
 
         
     
     
-            marker_f3d05a9b6c6d2a3f16ffbc759ffa0461.bindTooltip(
+            marker_0a4015c9cb803c396deb1c67b343f57b.bindTooltip(
                 `<div>
                      Ден 5: Cliffs of Moher
                  </div>`,
@@ -617,30 +621,30 @@
             );
         
     
-            var marker_5a7d75992ea57a7a735486d096a8c46e = L.marker(
+            var marker_9cbe0512927f1c2e21ff8991d951c0ef = L.marker(
                 [52.1413, -10.2682],
                 {}
-            ).addTo(feature_group_b67471bdc1e58b7abe07bf0adfdf9684);
+            ).addTo(feature_group_bca947eb665bf92fc5bbb0e81206d94c);
         
     
-            var div_icon_f14a721c061b4297dc4b466afbc4eed9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_5a7d75992ea57a7a735486d096a8c46e.setIcon(div_icon_f14a721c061b4297dc4b466afbc4eed9);
+            var div_icon_aec83e756ae38abe8987e9fc18c01343 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:orange;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_9cbe0512927f1c2e21ff8991d951c0ef.setIcon(div_icon_aec83e756ae38abe8987e9fc18c01343);
         
     
-        var popup_fcca3fee9e66dbf1664023ff4581c901 = L.popup({"maxWidth": "100%"});
+        var popup_1189f167171f2b18c69141ac234361f1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8d6eaf51b24fabacfcd31328213a374b = $(`<div id="html_8d6eaf51b24fabacfcd31328213a374b" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 3</b>: Dingle Town<br>Цветно пристанищно градче с музика</div>`)[0];
-            popup_fcca3fee9e66dbf1664023ff4581c901.setContent(html_8d6eaf51b24fabacfcd31328213a374b);
+            var html_957fd2610b6ab3fc18381462500994bc = $(`<div id="html_957fd2610b6ab3fc18381462500994bc" style="width: 100.0%; height: 100.0%;"><b>Ден 5 – 3</b>: Dingle Town<br>Цветно пристанище</div>`)[0];
+            popup_1189f167171f2b18c69141ac234361f1.setContent(html_957fd2610b6ab3fc18381462500994bc);
         
 
-        marker_5a7d75992ea57a7a735486d096a8c46e.bindPopup(popup_fcca3fee9e66dbf1664023ff4581c901)
+        marker_9cbe0512927f1c2e21ff8991d951c0ef.bindPopup(popup_1189f167171f2b18c69141ac234361f1)
         ;
 
         
     
     
-            marker_5a7d75992ea57a7a735486d096a8c46e.bindTooltip(
+            marker_9cbe0512927f1c2e21ff8991d951c0ef.bindTooltip(
                 `<div>
                      Ден 5: Dingle Town
                  </div>`,
@@ -648,35 +652,35 @@
             );
         
     
-            var feature_group_9ffc804ca647334fdf82bcc4511f26c4 = L.featureGroup(
+            var feature_group_c7e3ed85cb8c70b39435070a611d621a = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_20c208f41708cf93488bdc2431509dd7 = L.marker(
+            var marker_b338b25494e7d33ffe068cfea11af9bf = L.marker(
                 [52.1333, -10.4583],
                 {}
-            ).addTo(feature_group_9ffc804ca647334fdf82bcc4511f26c4);
+            ).addTo(feature_group_c7e3ed85cb8c70b39435070a611d621a);
         
     
-            var div_icon_eb6828a1d77b16ce70e83143adcdf7cd = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_20c208f41708cf93488bdc2431509dd7.setIcon(div_icon_eb6828a1d77b16ce70e83143adcdf7cd);
+            var div_icon_b6db8929f425f591e29159ee9ce64802 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_b338b25494e7d33ffe068cfea11af9bf.setIcon(div_icon_b6db8929f425f591e29159ee9ce64802);
         
     
-        var popup_6da713f004c0e7394d8beb600912be94 = L.popup({"maxWidth": "100%"});
+        var popup_5248c4ae05369bb0e6b8f118cb418c06 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ead6403a44c1c96a358516fedf098a7a = $(`<div id="html_ead6403a44c1c96a358516fedf098a7a" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 1</b>: Dunquin Pier<br>Кей за Бласкетските острови и гледки</div>`)[0];
-            popup_6da713f004c0e7394d8beb600912be94.setContent(html_ead6403a44c1c96a358516fedf098a7a);
+            var html_25bb8613d44739cd76bae599a6caaa5d = $(`<div id="html_25bb8613d44739cd76bae599a6caaa5d" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 1</b>: Dunquin Pier<br>Кей и гледки към Бласкет</div>`)[0];
+            popup_5248c4ae05369bb0e6b8f118cb418c06.setContent(html_25bb8613d44739cd76bae599a6caaa5d);
         
 
-        marker_20c208f41708cf93488bdc2431509dd7.bindPopup(popup_6da713f004c0e7394d8beb600912be94)
+        marker_b338b25494e7d33ffe068cfea11af9bf.bindPopup(popup_5248c4ae05369bb0e6b8f118cb418c06)
         ;
 
         
     
     
-            marker_20c208f41708cf93488bdc2431509dd7.bindTooltip(
+            marker_b338b25494e7d33ffe068cfea11af9bf.bindTooltip(
                 `<div>
                      Ден 6: Dunquin Pier
                  </div>`,
@@ -684,30 +688,30 @@
             );
         
     
-            var marker_dbd8477dba0d55ed7f71d1147f6c410d = L.marker(
+            var marker_045d4589a1a0e9a8c355e137f10139c0 = L.marker(
                 [52.2023, -10.3093],
                 {}
-            ).addTo(feature_group_9ffc804ca647334fdf82bcc4511f26c4);
+            ).addTo(feature_group_c7e3ed85cb8c70b39435070a611d621a);
         
     
-            var div_icon_4cbf12fe266e6f689551d3c9d7a011c8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_dbd8477dba0d55ed7f71d1147f6c410d.setIcon(div_icon_4cbf12fe266e6f689551d3c9d7a011c8);
+            var div_icon_aafb1ed08371551e3cd05263e12af69d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_045d4589a1a0e9a8c355e137f10139c0.setIcon(div_icon_aafb1ed08371551e3cd05263e12af69d);
         
     
-        var popup_9e38f8dcfecac495c829fb39e526df0c = L.popup({"maxWidth": "100%"});
+        var popup_c7dcd4d059971835f1ca80ce681466c1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_08aa6bd62fc499b03ce8fe14f3d2a0d7 = $(`<div id="html_08aa6bd62fc499b03ce8fe14f3d2a0d7" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 2</b>: Gallarus Oratory<br>Раннохристиянска каменна църква</div>`)[0];
-            popup_9e38f8dcfecac495c829fb39e526df0c.setContent(html_08aa6bd62fc499b03ce8fe14f3d2a0d7);
+            var html_19ce75f21183c9f23bba661050bae0cd = $(`<div id="html_19ce75f21183c9f23bba661050bae0cd" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 2</b>: Gallarus Oratory<br>Раннохристиянска църква</div>`)[0];
+            popup_c7dcd4d059971835f1ca80ce681466c1.setContent(html_19ce75f21183c9f23bba661050bae0cd);
         
 
-        marker_dbd8477dba0d55ed7f71d1147f6c410d.bindPopup(popup_9e38f8dcfecac495c829fb39e526df0c)
+        marker_045d4589a1a0e9a8c355e137f10139c0.bindPopup(popup_c7dcd4d059971835f1ca80ce681466c1)
         ;
 
         
     
     
-            marker_dbd8477dba0d55ed7f71d1147f6c410d.bindTooltip(
+            marker_045d4589a1a0e9a8c355e137f10139c0.bindTooltip(
                 `<div>
                      Ден 6: Gallarus Oratory
                  </div>`,
@@ -715,30 +719,30 @@
             );
         
     
-            var marker_a5806d13731536f82a6f01bc45c401b0 = L.marker(
+            var marker_15185714ac9851af545cc9cd5bb68240 = L.marker(
                 [52.137, -9.984],
                 {}
-            ).addTo(feature_group_9ffc804ca647334fdf82bcc4511f26c4);
+            ).addTo(feature_group_c7e3ed85cb8c70b39435070a611d621a);
         
     
-            var div_icon_f24fef631109376b7297ade1e5bb1bb9 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_a5806d13731536f82a6f01bc45c401b0.setIcon(div_icon_f24fef631109376b7297ade1e5bb1bb9);
+            var div_icon_af4edf3b04a39ec3814da730f2683ea7 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkred;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_15185714ac9851af545cc9cd5bb68240.setIcon(div_icon_af4edf3b04a39ec3814da730f2683ea7);
         
     
-        var popup_29331ecc25961043af8e3ee70a524d09 = L.popup({"maxWidth": "100%"});
+        var popup_f86025d26a3840b321964d415d5d0cac = L.popup({"maxWidth": "100%"});
 
         
-            var html_0493c0024038901700b5453ee372b9a1 = $(`<div id="html_0493c0024038901700b5453ee372b9a1" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 3</b>: Inch Beach<br>3 км пясъчен плаж</div>`)[0];
-            popup_29331ecc25961043af8e3ee70a524d09.setContent(html_0493c0024038901700b5453ee372b9a1);
+            var html_c605e7791815f5c544571d26a0ae6dca = $(`<div id="html_c605e7791815f5c544571d26a0ae6dca" style="width: 100.0%; height: 100.0%;"><b>Ден 6 – 3</b>: Inch Beach<br>3 км пясъчен плаж</div>`)[0];
+            popup_f86025d26a3840b321964d415d5d0cac.setContent(html_c605e7791815f5c544571d26a0ae6dca);
         
 
-        marker_a5806d13731536f82a6f01bc45c401b0.bindPopup(popup_29331ecc25961043af8e3ee70a524d09)
+        marker_15185714ac9851af545cc9cd5bb68240.bindPopup(popup_f86025d26a3840b321964d415d5d0cac)
         ;
 
         
     
     
-            marker_a5806d13731536f82a6f01bc45c401b0.bindTooltip(
+            marker_15185714ac9851af545cc9cd5bb68240.bindTooltip(
                 `<div>
                      Ден 6: Inch Beach
                  </div>`,
@@ -746,35 +750,35 @@
             );
         
     
-            var feature_group_d19df9f808fcfe0b3a70d9b0cd7d3864 = L.featureGroup(
+            var feature_group_dc36b0046a245182ff5fd42c02f1372f = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_f2b2a57c7335d020ecf7f4f425b452e6 = L.marker(
+            var marker_2ba61f8a6cd45e0fb47671152105502d = L.marker(
                 [52.0171, -9.5019],
                 {}
-            ).addTo(feature_group_d19df9f808fcfe0b3a70d9b0cd7d3864);
+            ).addTo(feature_group_dc36b0046a245182ff5fd42c02f1372f);
         
     
-            var div_icon_d5ce52b33b9356c72e3151b171d3bcfb = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_f2b2a57c7335d020ecf7f4f425b452e6.setIcon(div_icon_d5ce52b33b9356c72e3151b171d3bcfb);
+            var div_icon_f5a917ba48b1741587e4ec9a469301aa = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_2ba61f8a6cd45e0fb47671152105502d.setIcon(div_icon_f5a917ba48b1741587e4ec9a469301aa);
         
     
-        var popup_9abe2856f92fcc13322810c87bc0acfe = L.popup({"maxWidth": "100%"});
+        var popup_9dd61d0fc21d79b4bc63c40bd687351d = L.popup({"maxWidth": "100%"});
 
         
-            var html_57fe8e57a20721518944da99f72032e5 = $(`<div id="html_57fe8e57a20721518944da99f72032e5" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 1</b>: Muckross House<br>Викторианско имение и градини</div>`)[0];
-            popup_9abe2856f92fcc13322810c87bc0acfe.setContent(html_57fe8e57a20721518944da99f72032e5);
+            var html_72e43cef6aee0f6cf6e2f7c6a98bd142 = $(`<div id="html_72e43cef6aee0f6cf6e2f7c6a98bd142" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 1</b>: Muckross House<br>Викторианско имение</div>`)[0];
+            popup_9dd61d0fc21d79b4bc63c40bd687351d.setContent(html_72e43cef6aee0f6cf6e2f7c6a98bd142);
         
 
-        marker_f2b2a57c7335d020ecf7f4f425b452e6.bindPopup(popup_9abe2856f92fcc13322810c87bc0acfe)
+        marker_2ba61f8a6cd45e0fb47671152105502d.bindPopup(popup_9dd61d0fc21d79b4bc63c40bd687351d)
         ;
 
         
     
     
-            marker_f2b2a57c7335d020ecf7f4f425b452e6.bindTooltip(
+            marker_2ba61f8a6cd45e0fb47671152105502d.bindTooltip(
                 `<div>
                      Ден 7: Muckross House
                  </div>`,
@@ -782,30 +786,30 @@
             );
         
     
-            var marker_51d5f1d05ef0d3d75497934f61092421 = L.marker(
+            var marker_e82749e0fb18c913d6585fc8c5e88f0f = L.marker(
                 [52.0058, -9.5076],
                 {}
-            ).addTo(feature_group_d19df9f808fcfe0b3a70d9b0cd7d3864);
+            ).addTo(feature_group_dc36b0046a245182ff5fd42c02f1372f);
         
     
-            var div_icon_f1db744afe3d5ad482fbf5d36c890718 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_51d5f1d05ef0d3d75497934f61092421.setIcon(div_icon_f1db744afe3d5ad482fbf5d36c890718);
+            var div_icon_dbbcf7bab8f03d5dbd621ff0639a9055 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_e82749e0fb18c913d6585fc8c5e88f0f.setIcon(div_icon_dbbcf7bab8f03d5dbd621ff0639a9055);
         
     
-        var popup_7cbb6e1a713ec988c7d588a9a92bcb67 = L.popup({"maxWidth": "100%"});
+        var popup_83354d257d33a739bd692cc59c99ea7d = L.popup({"maxWidth": "100%"});
 
         
-            var html_487c97713ce1c4d30da8681a5d54cb2d = $(`<div id="html_487c97713ce1c4d30da8681a5d54cb2d" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 2</b>: Torc Waterfall<br>Горски водопад</div>`)[0];
-            popup_7cbb6e1a713ec988c7d588a9a92bcb67.setContent(html_487c97713ce1c4d30da8681a5d54cb2d);
+            var html_e64f210ebee01cd9b72a7953e8c72c03 = $(`<div id="html_e64f210ebee01cd9b72a7953e8c72c03" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 2</b>: Torc Waterfall<br>Горски водопад</div>`)[0];
+            popup_83354d257d33a739bd692cc59c99ea7d.setContent(html_e64f210ebee01cd9b72a7953e8c72c03);
         
 
-        marker_51d5f1d05ef0d3d75497934f61092421.bindPopup(popup_7cbb6e1a713ec988c7d588a9a92bcb67)
+        marker_e82749e0fb18c913d6585fc8c5e88f0f.bindPopup(popup_83354d257d33a739bd692cc59c99ea7d)
         ;
 
         
     
     
-            marker_51d5f1d05ef0d3d75497934f61092421.bindTooltip(
+            marker_e82749e0fb18c913d6585fc8c5e88f0f.bindTooltip(
                 `<div>
                      Ден 7: Torc Waterfall
                  </div>`,
@@ -813,30 +817,30 @@
             );
         
     
-            var marker_d7490bb091be66c9efe827252427493a = L.marker(
+            var marker_254a6870721d2e835e115b0c80632352 = L.marker(
                 [52.0534, -9.5436],
                 {}
-            ).addTo(feature_group_d19df9f808fcfe0b3a70d9b0cd7d3864);
+            ).addTo(feature_group_dc36b0046a245182ff5fd42c02f1372f);
         
     
-            var div_icon_9bdde888e34925d4d501317d2a3623c0 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_d7490bb091be66c9efe827252427493a.setIcon(div_icon_9bdde888e34925d4d501317d2a3623c0);
+            var div_icon_9cef76b313c3c1932c4982a28b2c380d = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_254a6870721d2e835e115b0c80632352.setIcon(div_icon_9cef76b313c3c1932c4982a28b2c380d);
         
     
-        var popup_87442c8d8f4c1689060f5b29355e4727 = L.popup({"maxWidth": "100%"});
+        var popup_75aa06eaac97da4fd1bef986ce64a93d = L.popup({"maxWidth": "100%"});
 
         
-            var html_2283ba23acf927f8ebe2c1dbc8a4244c = $(`<div id="html_2283ba23acf927f8ebe2c1dbc8a4244c" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 3</b>: Ross Castle<br>Замък от XV в. на Лох Лийн</div>`)[0];
-            popup_87442c8d8f4c1689060f5b29355e4727.setContent(html_2283ba23acf927f8ebe2c1dbc8a4244c);
+            var html_b5c7ddcec0630430634a6d96cfe39dd2 = $(`<div id="html_b5c7ddcec0630430634a6d96cfe39dd2" style="width: 100.0%; height: 100.0%;"><b>Ден 7 – 3</b>: Ross Castle<br>Замък XV в.</div>`)[0];
+            popup_75aa06eaac97da4fd1bef986ce64a93d.setContent(html_b5c7ddcec0630430634a6d96cfe39dd2);
         
 
-        marker_d7490bb091be66c9efe827252427493a.bindPopup(popup_87442c8d8f4c1689060f5b29355e4727)
+        marker_254a6870721d2e835e115b0c80632352.bindPopup(popup_75aa06eaac97da4fd1bef986ce64a93d)
         ;
 
         
     
     
-            marker_d7490bb091be66c9efe827252427493a.bindTooltip(
+            marker_254a6870721d2e835e115b0c80632352.bindTooltip(
                 `<div>
                      Ден 7: Ross Castle
                  </div>`,
@@ -844,35 +848,35 @@
             );
         
     
-            var feature_group_ccf47367ff775fbc07c70d6a7f5cc118 = L.featureGroup(
+            var feature_group_1195b7d6714dfb4d037dac9f548e984a = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_ce6f3a1fd233507891dce2fa53012ecf = L.marker(
+            var marker_07b7c415e1828257c9f692d5062e139b = L.marker(
                 [52.0053, -9.6361],
                 {}
-            ).addTo(feature_group_ccf47367ff775fbc07c70d6a7f5cc118);
+            ).addTo(feature_group_1195b7d6714dfb4d037dac9f548e984a);
         
     
-            var div_icon_1542d4e023bddb189d9d8c5546fa4b5b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_ce6f3a1fd233507891dce2fa53012ecf.setIcon(div_icon_1542d4e023bddb189d9d8c5546fa4b5b);
+            var div_icon_2a1165fd1ba6cd422b5f5895d7aa81f8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_07b7c415e1828257c9f692d5062e139b.setIcon(div_icon_2a1165fd1ba6cd422b5f5895d7aa81f8);
         
     
-        var popup_682700773522b0c6b759dd938598c5fd = L.popup({"maxWidth": "100%"});
+        var popup_b7124845796735318b7a9ab1adb768f2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_eac5ad3bb848f8862334f60d3932a3fd = $(`<div id="html_eac5ad3bb848f8862334f60d3932a3fd" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 1</b>: Ladies View<br>Панорама в Киларни</div>`)[0];
-            popup_682700773522b0c6b759dd938598c5fd.setContent(html_eac5ad3bb848f8862334f60d3932a3fd);
+            var html_4fe3c87144c5f68a53f3ec368ea03aa6 = $(`<div id="html_4fe3c87144c5f68a53f3ec368ea03aa6" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 1</b>: Ladies View<br>Панорама Киларни</div>`)[0];
+            popup_b7124845796735318b7a9ab1adb768f2.setContent(html_4fe3c87144c5f68a53f3ec368ea03aa6);
         
 
-        marker_ce6f3a1fd233507891dce2fa53012ecf.bindPopup(popup_682700773522b0c6b759dd938598c5fd)
+        marker_07b7c415e1828257c9f692d5062e139b.bindPopup(popup_b7124845796735318b7a9ab1adb768f2)
         ;
 
         
     
     
-            marker_ce6f3a1fd233507891dce2fa53012ecf.bindTooltip(
+            marker_07b7c415e1828257c9f692d5062e139b.bindTooltip(
                 `<div>
                      Ден 8: Ladies View
                  </div>`,
@@ -880,30 +884,30 @@
             );
         
     
-            var marker_488ab7444482486bd471f6af41018b72 = L.marker(
+            var marker_9f1dbde6d73e9707d6835ab9a4280dcb = L.marker(
                 [51.9382, -10.2384],
                 {}
-            ).addTo(feature_group_ccf47367ff775fbc07c70d6a7f5cc118);
+            ).addTo(feature_group_1195b7d6714dfb4d037dac9f548e984a);
         
     
-            var div_icon_7cdaf6a89abcfdcf11cb56c689575868 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_488ab7444482486bd471f6af41018b72.setIcon(div_icon_7cdaf6a89abcfdcf11cb56c689575868);
+            var div_icon_ddf21419052b64d593f864ec95ba93f5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_9f1dbde6d73e9707d6835ab9a4280dcb.setIcon(div_icon_ddf21419052b64d593f864ec95ba93f5);
         
     
-        var popup_c25808fa9d94bfef1c726adfdf0e5f09 = L.popup({"maxWidth": "100%"});
+        var popup_51f49a9cd2cece07b2fcc8abe3121341 = L.popup({"maxWidth": "100%"});
 
         
-            var html_800b5239aea9b3e926abad149a611268 = $(`<div id="html_800b5239aea9b3e926abad149a611268" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 2</b>: Ballycarbery Castle<br>Руиниран замък от XVI век</div>`)[0];
-            popup_c25808fa9d94bfef1c726adfdf0e5f09.setContent(html_800b5239aea9b3e926abad149a611268);
+            var html_44201ccb7c4f6b8096b5f16316eb4340 = $(`<div id="html_44201ccb7c4f6b8096b5f16316eb4340" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 2</b>: Ballycarbery Castle<br>Руиниран замък</div>`)[0];
+            popup_51f49a9cd2cece07b2fcc8abe3121341.setContent(html_44201ccb7c4f6b8096b5f16316eb4340);
         
 
-        marker_488ab7444482486bd471f6af41018b72.bindPopup(popup_c25808fa9d94bfef1c726adfdf0e5f09)
+        marker_9f1dbde6d73e9707d6835ab9a4280dcb.bindPopup(popup_51f49a9cd2cece07b2fcc8abe3121341)
         ;
 
         
     
     
-            marker_488ab7444482486bd471f6af41018b72.bindTooltip(
+            marker_9f1dbde6d73e9707d6835ab9a4280dcb.bindTooltip(
                 `<div>
                      Ден 8: Ballycarbery Castle
                  </div>`,
@@ -911,30 +915,30 @@
             );
         
     
-            var marker_22ba427e28ac2e434a55267c73becfd0 = L.marker(
+            var marker_da200f39ccc7ae1fbf43cf6ecafef548 = L.marker(
                 [51.8796, -9.5833],
                 {}
-            ).addTo(feature_group_ccf47367ff775fbc07c70d6a7f5cc118);
+            ).addTo(feature_group_1195b7d6714dfb4d037dac9f548e984a);
         
     
-            var div_icon_d60ac9d93a23de0eed8d2ea026a95683 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_22ba427e28ac2e434a55267c73becfd0.setIcon(div_icon_d60ac9d93a23de0eed8d2ea026a95683);
+            var div_icon_26ddb0b55d6e108eef3d99b66a0ac816 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:darkgreen;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_da200f39ccc7ae1fbf43cf6ecafef548.setIcon(div_icon_26ddb0b55d6e108eef3d99b66a0ac816);
         
     
-        var popup_57ee20ad3ca5738778c541967a0bfe8f = L.popup({"maxWidth": "100%"});
+        var popup_e0e7ff71145289488e98a5e42c4cfa28 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c25dd144946bf459322ea3f059f2b1f5 = $(`<div id="html_c25dd144946bf459322ea3f059f2b1f5" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 3</b>: Kenmare Town<br>Град с наследство на дантели</div>`)[0];
-            popup_57ee20ad3ca5738778c541967a0bfe8f.setContent(html_c25dd144946bf459322ea3f059f2b1f5);
+            var html_211c94e244876ea98588d4ef82b2b46e = $(`<div id="html_211c94e244876ea98588d4ef82b2b46e" style="width: 100.0%; height: 100.0%;"><b>Ден 8 – 3</b>: Kenmare Town<br>Наследствен град</div>`)[0];
+            popup_e0e7ff71145289488e98a5e42c4cfa28.setContent(html_211c94e244876ea98588d4ef82b2b46e);
         
 
-        marker_22ba427e28ac2e434a55267c73becfd0.bindPopup(popup_57ee20ad3ca5738778c541967a0bfe8f)
+        marker_da200f39ccc7ae1fbf43cf6ecafef548.bindPopup(popup_e0e7ff71145289488e98a5e42c4cfa28)
         ;
 
         
     
     
-            marker_22ba427e28ac2e434a55267c73becfd0.bindTooltip(
+            marker_da200f39ccc7ae1fbf43cf6ecafef548.bindTooltip(
                 `<div>
                      Ден 8: Kenmare Town
                  </div>`,
@@ -942,35 +946,35 @@
             );
         
     
-            var feature_group_6ac2873c189937fee6d52338e2e9618f = L.featureGroup(
+            var feature_group_bfaf9aabef28a1767faf56b2218a12ec = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_05af6946d9715f696b7687847a312c32 = L.marker(
+            var marker_c9cbfd5226ec8701f9f3c2c01519177a = L.marker(
                 [52.5203, -7.89],
                 {}
-            ).addTo(feature_group_6ac2873c189937fee6d52338e2e9618f);
+            ).addTo(feature_group_bfaf9aabef28a1767faf56b2218a12ec);
         
     
-            var div_icon_3f5e9b283f239b2f550d257cfea9240c = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:pink;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_05af6946d9715f696b7687847a312c32.setIcon(div_icon_3f5e9b283f239b2f550d257cfea9240c);
+            var div_icon_dd880eac2998ce2c5e52b7f37c71ff29 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:pink;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_c9cbfd5226ec8701f9f3c2c01519177a.setIcon(div_icon_dd880eac2998ce2c5e52b7f37c71ff29);
         
     
-        var popup_0751e8a29416f4ff18007c20389c16c7 = L.popup({"maxWidth": "100%"});
+        var popup_44114a03d9ee6a71a8df23629d43522a = L.popup({"maxWidth": "100%"});
 
         
-            var html_7d8ee79afce67cb94092648acab6dde6 = $(`<div id="html_7d8ee79afce67cb94092648acab6dde6" style="width: 100.0%; height: 100.0%;"><b>Ден 9 – 1</b>: Rock of Cashel<br>Средновековен катедрален комплекс</div>`)[0];
-            popup_0751e8a29416f4ff18007c20389c16c7.setContent(html_7d8ee79afce67cb94092648acab6dde6);
+            var html_44176b2a9b865bb36d525a4415d0164e = $(`<div id="html_44176b2a9b865bb36d525a4415d0164e" style="width: 100.0%; height: 100.0%;"><b>Ден 9 – 1</b>: Rock of Cashel<br>Катедрален комплекс</div>`)[0];
+            popup_44114a03d9ee6a71a8df23629d43522a.setContent(html_44176b2a9b865bb36d525a4415d0164e);
         
 
-        marker_05af6946d9715f696b7687847a312c32.bindPopup(popup_0751e8a29416f4ff18007c20389c16c7)
+        marker_c9cbfd5226ec8701f9f3c2c01519177a.bindPopup(popup_44114a03d9ee6a71a8df23629d43522a)
         ;
 
         
     
     
-            marker_05af6946d9715f696b7687847a312c32.bindTooltip(
+            marker_c9cbfd5226ec8701f9f3c2c01519177a.bindTooltip(
                 `<div>
                      Ден 9: Rock of Cashel
                  </div>`,
@@ -978,30 +982,30 @@
             );
         
     
-            var marker_acfd738ca72dd01a3c58fc6a935cd50d = L.marker(
+            var marker_c72f8ccbbad60285c3acc1a29be3dbbe = L.marker(
                 [52.6541, -7.2528],
                 {}
-            ).addTo(feature_group_6ac2873c189937fee6d52338e2e9618f);
+            ).addTo(feature_group_bfaf9aabef28a1767faf56b2218a12ec);
         
     
-            var div_icon_a0f929db0d34beae7c4b343f900f4163 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:pink;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_acfd738ca72dd01a3c58fc6a935cd50d.setIcon(div_icon_a0f929db0d34beae7c4b343f900f4163);
+            var div_icon_9e13f313dc93651914ebcf104da1dbb5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:pink;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_c72f8ccbbad60285c3acc1a29be3dbbe.setIcon(div_icon_9e13f313dc93651914ebcf104da1dbb5);
         
     
-        var popup_7d0794c1d7c495445a10b56377a902b0 = L.popup({"maxWidth": "100%"});
+        var popup_215168f8abc6e23d455514234c7b44b2 = L.popup({"maxWidth": "100%"});
 
         
-            var html_c3600e0f94f3aa2c0be03b91e365d97f = $(`<div id="html_c3600e0f94f3aa2c0be03b91e365d97f" style="width: 100.0%; height: 100.0%;"><b>Ден 9 – 2</b>: Kilkenny Castle<br>Нормански замък и парк</div>`)[0];
-            popup_7d0794c1d7c495445a10b56377a902b0.setContent(html_c3600e0f94f3aa2c0be03b91e365d97f);
+            var html_a4b7429fcce616c21032cdc744573cfc = $(`<div id="html_a4b7429fcce616c21032cdc744573cfc" style="width: 100.0%; height: 100.0%;"><b>Ден 9 – 2</b>: Kilkenny Castle<br>Нормански замък</div>`)[0];
+            popup_215168f8abc6e23d455514234c7b44b2.setContent(html_a4b7429fcce616c21032cdc744573cfc);
         
 
-        marker_acfd738ca72dd01a3c58fc6a935cd50d.bindPopup(popup_7d0794c1d7c495445a10b56377a902b0)
+        marker_c72f8ccbbad60285c3acc1a29be3dbbe.bindPopup(popup_215168f8abc6e23d455514234c7b44b2)
         ;
 
         
     
     
-            marker_acfd738ca72dd01a3c58fc6a935cd50d.bindTooltip(
+            marker_c72f8ccbbad60285c3acc1a29be3dbbe.bindTooltip(
                 `<div>
                      Ден 9: Kilkenny Castle
                  </div>`,
@@ -1009,35 +1013,35 @@
             );
         
     
-            var feature_group_2094d83cc152cb33fcfd1b4dd0a46659 = L.featureGroup(
+            var feature_group_4bfb19d038d791ab258b21d2a0c49a95 = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_c4989ddbcb055a09f1d7fb43519702a7 = L.marker(
+            var marker_a54067f6e12df4627afc6f1a03ff98b5 = L.marker(
                 [53.01, -6.327],
                 {}
-            ).addTo(feature_group_2094d83cc152cb33fcfd1b4dd0a46659);
+            ).addTo(feature_group_4bfb19d038d791ab258b21d2a0c49a95);
         
     
-            var div_icon_8df7ec6c3fd082910a3bf8376fc73a47 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_c4989ddbcb055a09f1d7fb43519702a7.setIcon(div_icon_8df7ec6c3fd082910a3bf8376fc73a47);
+            var div_icon_2e9c6e9d86204df1af224ca63471fee5 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_a54067f6e12df4627afc6f1a03ff98b5.setIcon(div_icon_2e9c6e9d86204df1af224ca63471fee5);
         
     
-        var popup_5c81b9deb56e34cdb838edf668855f09 = L.popup({"maxWidth": "100%"});
+        var popup_b6bba830bc2f4a8ce337b6b7eb0ae3fb = L.popup({"maxWidth": "100%"});
 
         
-            var html_f719712f91ce994c1f780a5a96e6aea0 = $(`<div id="html_f719712f91ce994c1f780a5a96e6aea0" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 1</b>: Glendalough<br>Манастирска долина и езера</div>`)[0];
-            popup_5c81b9deb56e34cdb838edf668855f09.setContent(html_f719712f91ce994c1f780a5a96e6aea0);
+            var html_0192d8ee44b0f080eb87ddb1c2598302 = $(`<div id="html_0192d8ee44b0f080eb87ddb1c2598302" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 1</b>: Glendalough<br>Манастирска долина</div>`)[0];
+            popup_b6bba830bc2f4a8ce337b6b7eb0ae3fb.setContent(html_0192d8ee44b0f080eb87ddb1c2598302);
         
 
-        marker_c4989ddbcb055a09f1d7fb43519702a7.bindPopup(popup_5c81b9deb56e34cdb838edf668855f09)
+        marker_a54067f6e12df4627afc6f1a03ff98b5.bindPopup(popup_b6bba830bc2f4a8ce337b6b7eb0ae3fb)
         ;
 
         
     
     
-            marker_c4989ddbcb055a09f1d7fb43519702a7.bindTooltip(
+            marker_a54067f6e12df4627afc6f1a03ff98b5.bindTooltip(
                 `<div>
                      Ден 10: Glendalough
                  </div>`,
@@ -1045,30 +1049,30 @@
             );
         
     
-            var marker_e11a2fcf5474851e3060772f516d6424 = L.marker(
+            var marker_b07b934bfe748662cb2b0870b6164bdc = L.marker(
                 [53.154, -6.33],
                 {}
-            ).addTo(feature_group_2094d83cc152cb33fcfd1b4dd0a46659);
+            ).addTo(feature_group_4bfb19d038d791ab258b21d2a0c49a95);
         
     
-            var div_icon_ddf33367ffcf4a0eba8269d44db8b17f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_e11a2fcf5474851e3060772f516d6424.setIcon(div_icon_ddf33367ffcf4a0eba8269d44db8b17f);
+            var div_icon_eaad3609242f1507288b39a439814a71 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_b07b934bfe748662cb2b0870b6164bdc.setIcon(div_icon_eaad3609242f1507288b39a439814a71);
         
     
-        var popup_0034278b56beb15259e9cb20b2fea496 = L.popup({"maxWidth": "100%"});
+        var popup_c0de079d71cefecb8058dc4d2ea12a99 = L.popup({"maxWidth": "100%"});
 
         
-            var html_654a693d86c78664ef0de503d8c9ae03 = $(`<div id="html_654a693d86c78664ef0de503d8c9ae03" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 2</b>: Sally Gap<br>Планински кръстопът и гледка</div>`)[0];
-            popup_0034278b56beb15259e9cb20b2fea496.setContent(html_654a693d86c78664ef0de503d8c9ae03);
+            var html_62bb212444443b182bd09ae9fbcc996c = $(`<div id="html_62bb212444443b182bd09ae9fbcc996c" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 2</b>: Sally Gap<br>Планински проход</div>`)[0];
+            popup_c0de079d71cefecb8058dc4d2ea12a99.setContent(html_62bb212444443b182bd09ae9fbcc996c);
         
 
-        marker_e11a2fcf5474851e3060772f516d6424.bindPopup(popup_0034278b56beb15259e9cb20b2fea496)
+        marker_b07b934bfe748662cb2b0870b6164bdc.bindPopup(popup_c0de079d71cefecb8058dc4d2ea12a99)
         ;
 
         
     
     
-            marker_e11a2fcf5474851e3060772f516d6424.bindTooltip(
+            marker_b07b934bfe748662cb2b0870b6164bdc.bindTooltip(
                 `<div>
                      Ден 10: Sally Gap
                  </div>`,
@@ -1076,30 +1080,30 @@
             );
         
     
-            var marker_6849638ef398c87b0c394fafc1a42d9c = L.marker(
+            var marker_1c13bc3c305d44734eb88952639f94a7 = L.marker(
                 [53.1843, -6.1867],
                 {}
-            ).addTo(feature_group_2094d83cc152cb33fcfd1b4dd0a46659);
+            ).addTo(feature_group_4bfb19d038d791ab258b21d2a0c49a95);
         
     
-            var div_icon_c09804359fbd66160ec9826d959e1241 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_6849638ef398c87b0c394fafc1a42d9c.setIcon(div_icon_c09804359fbd66160ec9826d959e1241);
+            var div_icon_8653cf5d401361aa93b8c4c0029c1c6b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_1c13bc3c305d44734eb88952639f94a7.setIcon(div_icon_8653cf5d401361aa93b8c4c0029c1c6b);
         
     
-        var popup_a3a5802fb7203e31da7035afaf3c9735 = L.popup({"maxWidth": "100%"});
+        var popup_e343a8f65962d816bcd0c525f6c4f1d5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_7480db63a66909389d8f499781206d12 = $(`<div id="html_7480db63a66909389d8f499781206d12" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 3</b>: Powerscourt Gardens<br>Формални градини и водопад</div>`)[0];
-            popup_a3a5802fb7203e31da7035afaf3c9735.setContent(html_7480db63a66909389d8f499781206d12);
+            var html_49be7af1febeac7553c8a8e903023abe = $(`<div id="html_49be7af1febeac7553c8a8e903023abe" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 3</b>: Powerscourt Gardens<br>Градини и водопад</div>`)[0];
+            popup_e343a8f65962d816bcd0c525f6c4f1d5.setContent(html_49be7af1febeac7553c8a8e903023abe);
         
 
-        marker_6849638ef398c87b0c394fafc1a42d9c.bindPopup(popup_a3a5802fb7203e31da7035afaf3c9735)
+        marker_1c13bc3c305d44734eb88952639f94a7.bindPopup(popup_e343a8f65962d816bcd0c525f6c4f1d5)
         ;
 
         
     
     
-            marker_6849638ef398c87b0c394fafc1a42d9c.bindTooltip(
+            marker_1c13bc3c305d44734eb88952639f94a7.bindTooltip(
                 `<div>
                      Ден 10: Powerscourt Gardens
                  </div>`,
@@ -1107,30 +1111,30 @@
             );
         
     
-            var marker_a4f0ad19665612b64a913097744773f7 = L.marker(
+            var marker_16dfd47c541842f978e25ec9a880882e = L.marker(
                 [53.1844, -6.1532],
                 {}
-            ).addTo(feature_group_2094d83cc152cb33fcfd1b4dd0a46659);
+            ).addTo(feature_group_4bfb19d038d791ab258b21d2a0c49a95);
         
     
-            var div_icon_52bf9c44ce86fcd139b74df0dc459f37 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_a4f0ad19665612b64a913097744773f7.setIcon(div_icon_52bf9c44ce86fcd139b74df0dc459f37);
+            var div_icon_fdfa695e8bf53d5cc14a504173b9ddc8 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:cadetblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_16dfd47c541842f978e25ec9a880882e.setIcon(div_icon_fdfa695e8bf53d5cc14a504173b9ddc8);
         
     
-        var popup_b063ac2090ccde83bbde92462e07ceb9 = L.popup({"maxWidth": "100%"});
+        var popup_92082e735e9b44423556490f7b7a4916 = L.popup({"maxWidth": "100%"});
 
         
-            var html_747062349093d2182d4a60e56bdeb74d = $(`<div id="html_747062349093d2182d4a60e56bdeb74d" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 4</b>: Avoca Handweavers<br>Ирландски занаяти и кафе</div>`)[0];
-            popup_b063ac2090ccde83bbde92462e07ceb9.setContent(html_747062349093d2182d4a60e56bdeb74d);
+            var html_e51ba6ff21935de0fe9bc375ae05b33e = $(`<div id="html_e51ba6ff21935de0fe9bc375ae05b33e" style="width: 100.0%; height: 100.0%;"><b>Ден 10 – 4</b>: Avoca Handweavers<br>Занаятчийски център</div>`)[0];
+            popup_92082e735e9b44423556490f7b7a4916.setContent(html_e51ba6ff21935de0fe9bc375ae05b33e);
         
 
-        marker_a4f0ad19665612b64a913097744773f7.bindPopup(popup_b063ac2090ccde83bbde92462e07ceb9)
+        marker_16dfd47c541842f978e25ec9a880882e.bindPopup(popup_92082e735e9b44423556490f7b7a4916)
         ;
 
         
     
     
-            marker_a4f0ad19665612b64a913097744773f7.bindTooltip(
+            marker_16dfd47c541842f978e25ec9a880882e.bindTooltip(
                 `<div>
                      Ден 10: Avoca Handweavers
                  </div>`,
@@ -1138,35 +1142,35 @@
             );
         
     
-            var feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f = L.featureGroup(
+            var feature_group_809e7b6ac7c1caafc86086934bdc62f7 = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_66e06028688649ed45cb615cfc0a9d21 = L.marker(
+            var marker_f7dbf5327e6a568ab0dfc1288a516016 = L.marker(
                 [53.5786, -6.6109],
                 {}
-            ).addTo(feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f);
+            ).addTo(feature_group_809e7b6ac7c1caafc86086934bdc62f7);
         
     
-            var div_icon_fa0a7acf42f2538d25dd7630999fa166 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_66e06028688649ed45cb615cfc0a9d21.setIcon(div_icon_fa0a7acf42f2538d25dd7630999fa166);
+            var div_icon_816afd5248c385223211954c404869c0 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_f7dbf5327e6a568ab0dfc1288a516016.setIcon(div_icon_816afd5248c385223211954c404869c0);
         
     
-        var popup_0ed3369bdc038cc458d2e8e3cb4febef = L.popup({"maxWidth": "100%"});
+        var popup_59de39070831a4bf06eadb70fdb433a6 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ccd1d618ff2dd62c1de8ea24ad22744d = $(`<div id="html_ccd1d618ff2dd62c1de8ea24ad22744d" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 1</b>: Hill of Tara<br>Древно седалище на върховните крале</div>`)[0];
-            popup_0ed3369bdc038cc458d2e8e3cb4febef.setContent(html_ccd1d618ff2dd62c1de8ea24ad22744d);
+            var html_2a27667bc293ed56bf67f759143ab084 = $(`<div id="html_2a27667bc293ed56bf67f759143ab084" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 1</b>: Hill of Tara<br>Седалище на крале</div>`)[0];
+            popup_59de39070831a4bf06eadb70fdb433a6.setContent(html_2a27667bc293ed56bf67f759143ab084);
         
 
-        marker_66e06028688649ed45cb615cfc0a9d21.bindPopup(popup_0ed3369bdc038cc458d2e8e3cb4febef)
+        marker_f7dbf5327e6a568ab0dfc1288a516016.bindPopup(popup_59de39070831a4bf06eadb70fdb433a6)
         ;
 
         
     
     
-            marker_66e06028688649ed45cb615cfc0a9d21.bindTooltip(
+            marker_f7dbf5327e6a568ab0dfc1288a516016.bindTooltip(
                 `<div>
                      Ден 11: Hill of Tara
                  </div>`,
@@ -1174,30 +1178,30 @@
             );
         
     
-            var marker_9c81689e5f280e5ff4afe218b144ea47 = L.marker(
+            var marker_4c81bc3141936a9fcb87fad31d9ba116 = L.marker(
                 [53.7, -6.446],
                 {}
-            ).addTo(feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f);
+            ).addTo(feature_group_809e7b6ac7c1caafc86086934bdc62f7);
         
     
-            var div_icon_2dedfbc426b72c68a51f32d8e03d3727 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_9c81689e5f280e5ff4afe218b144ea47.setIcon(div_icon_2dedfbc426b72c68a51f32d8e03d3727);
+            var div_icon_fac41f2f4e1223f6e2425f610f00056a = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e2\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_4c81bc3141936a9fcb87fad31d9ba116.setIcon(div_icon_fac41f2f4e1223f6e2425f610f00056a);
         
     
-        var popup_9c447a9d434dfa1353b80e8aae94de22 = L.popup({"maxWidth": "100%"});
+        var popup_74862fbb20bdaf47b4565724514134bc = L.popup({"maxWidth": "100%"});
 
         
-            var html_11f46b1a8198073f3394b5abee0a8168 = $(`<div id="html_11f46b1a8198073f3394b5abee0a8168" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 2</b>: Brú na Bóinne Centre<br>Център за Новгрейндж и Ноут</div>`)[0];
-            popup_9c447a9d434dfa1353b80e8aae94de22.setContent(html_11f46b1a8198073f3394b5abee0a8168);
+            var html_2af7a3a8628da1d3155936fd8da2ed93 = $(`<div id="html_2af7a3a8628da1d3155936fd8da2ed93" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 2</b>: Brú na Bóinne Centre<br>Новгрейндж/Ноут</div>`)[0];
+            popup_74862fbb20bdaf47b4565724514134bc.setContent(html_2af7a3a8628da1d3155936fd8da2ed93);
         
 
-        marker_9c81689e5f280e5ff4afe218b144ea47.bindPopup(popup_9c447a9d434dfa1353b80e8aae94de22)
+        marker_4c81bc3141936a9fcb87fad31d9ba116.bindPopup(popup_74862fbb20bdaf47b4565724514134bc)
         ;
 
         
     
     
-            marker_9c81689e5f280e5ff4afe218b144ea47.bindTooltip(
+            marker_4c81bc3141936a9fcb87fad31d9ba116.bindTooltip(
                 `<div>
                      Ден 11: Brú na Bóinne Centre
                  </div>`,
@@ -1205,30 +1209,30 @@
             );
         
     
-            var marker_bfc07ac8bbcd8355862e564b279b2f99 = L.marker(
+            var marker_76a40062a1bf086a9e594b320dd7ab8b = L.marker(
                 [53.5544, -6.7916],
                 {}
-            ).addTo(feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f);
+            ).addTo(feature_group_809e7b6ac7c1caafc86086934bdc62f7);
         
     
-            var div_icon_cae25cd3ab49df4cf4d5cb17a2bf713f = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_bfc07ac8bbcd8355862e564b279b2f99.setIcon(div_icon_cae25cd3ab49df4cf4d5cb17a2bf713f);
+            var div_icon_8f325049176777050581678cc092dc01 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e3\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_76a40062a1bf086a9e594b320dd7ab8b.setIcon(div_icon_8f325049176777050581678cc092dc01);
         
     
-        var popup_aa72c23733d6c9d9475e7b5e97d28978 = L.popup({"maxWidth": "100%"});
+        var popup_f744b43935d1f09a66eedd032bca2710 = L.popup({"maxWidth": "100%"});
 
         
-            var html_36f13337f6aa8c06b075b500d94f5b55 = $(`<div id="html_36f13337f6aa8c06b075b500d94f5b55" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 3</b>: Trim Castle<br>Най‑големият нормански замък</div>`)[0];
-            popup_aa72c23733d6c9d9475e7b5e97d28978.setContent(html_36f13337f6aa8c06b075b500d94f5b55);
+            var html_044664ae020355e37454d723aabec323 = $(`<div id="html_044664ae020355e37454d723aabec323" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 3</b>: Trim Castle<br>Нормански замък</div>`)[0];
+            popup_f744b43935d1f09a66eedd032bca2710.setContent(html_044664ae020355e37454d723aabec323);
         
 
-        marker_bfc07ac8bbcd8355862e564b279b2f99.bindPopup(popup_aa72c23733d6c9d9475e7b5e97d28978)
+        marker_76a40062a1bf086a9e594b320dd7ab8b.bindPopup(popup_f744b43935d1f09a66eedd032bca2710)
         ;
 
         
     
     
-            marker_bfc07ac8bbcd8355862e564b279b2f99.bindTooltip(
+            marker_76a40062a1bf086a9e594b320dd7ab8b.bindTooltip(
                 `<div>
                      Ден 11: Trim Castle
                  </div>`,
@@ -1236,30 +1240,30 @@
             );
         
     
-            var marker_e242684d083fe8991b94d09b4587573e = L.marker(
+            var marker_dd16c16c33cb459cbaf11cba18971c15 = L.marker(
                 [53.717, -6.356],
                 {}
-            ).addTo(feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f);
+            ).addTo(feature_group_809e7b6ac7c1caafc86086934bdc62f7);
         
     
-            var div_icon_caf756520c99ef9832411800fb1b0449 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_e242684d083fe8991b94d09b4587573e.setIcon(div_icon_caf756520c99ef9832411800fb1b0449);
+            var div_icon_72de611732bf5d8ba513e59ce3b9e6a7 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:lightblue;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e4\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_dd16c16c33cb459cbaf11cba18971c15.setIcon(div_icon_72de611732bf5d8ba513e59ce3b9e6a7);
         
     
-        var popup_6b71a8cf75ed7a42a7a9e17eed852b23 = L.popup({"maxWidth": "100%"});
+        var popup_746301b02654683e13f65cc474582e8d = L.popup({"maxWidth": "100%"});
 
         
-            var html_f41967721cd8006786c0602bbcb10956 = $(`<div id="html_f41967721cd8006786c0602bbcb10956" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 4</b>: Drogheda Town<br>Град за нощувка</div>`)[0];
-            popup_6b71a8cf75ed7a42a7a9e17eed852b23.setContent(html_f41967721cd8006786c0602bbcb10956);
+            var html_27a6bd241684e8f5340c101e1fc529a7 = $(`<div id="html_27a6bd241684e8f5340c101e1fc529a7" style="width: 100.0%; height: 100.0%;"><b>Ден 11 – 4</b>: Drogheda Town<br>Вечер и нощувка</div>`)[0];
+            popup_746301b02654683e13f65cc474582e8d.setContent(html_27a6bd241684e8f5340c101e1fc529a7);
         
 
-        marker_e242684d083fe8991b94d09b4587573e.bindPopup(popup_6b71a8cf75ed7a42a7a9e17eed852b23)
+        marker_dd16c16c33cb459cbaf11cba18971c15.bindPopup(popup_746301b02654683e13f65cc474582e8d)
         ;
 
         
     
     
-            marker_e242684d083fe8991b94d09b4587573e.bindTooltip(
+            marker_dd16c16c33cb459cbaf11cba18971c15.bindTooltip(
                 `<div>
                      Ден 11: Drogheda Town
                  </div>`,
@@ -1267,35 +1271,35 @@
             );
         
     
-            var feature_group_798f0a3c69b2f25ae946402ebc37eaf8 = L.featureGroup(
+            var feature_group_ff2d8e51467e1535a928df851a6d0602 = L.featureGroup(
                 {}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
     
-            var marker_6242366ddf486adc55a77e373360317b = L.marker(
+            var marker_c698b260e4ec85d27a86ae6e1a1d99ae = L.marker(
                 [53.3478, -6.1953],
                 {}
-            ).addTo(feature_group_798f0a3c69b2f25ae946402ebc37eaf8);
+            ).addTo(feature_group_ff2d8e51467e1535a928df851a6d0602);
         
     
-            var div_icon_f8a1ed28e6f8c8ae7a5529bf0cf0c42b = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:gray;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
-            marker_6242366ddf486adc55a77e373360317b.setIcon(div_icon_f8a1ed28e6f8c8ae7a5529bf0cf0c42b);
+            var div_icon_eef666fc734687e6be7b1ab37c681951 = L.divIcon({"className": "empty", "html": "\n    \u003cdiv style=\"background:gray;border-radius:50%;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border:2px solid white\"\u003e\n        \u003cspan style=\"color:white;font-size:13px;font-weight:bold\"\u003e1\u003c/span\u003e\n    \u003c/div\u003e\n    "});
+            marker_c698b260e4ec85d27a86ae6e1a1d99ae.setIcon(div_icon_eef666fc734687e6be7b1ab37c681951);
         
     
-        var popup_e11b341e7ef352f50c09227ebca87c3d = L.popup({"maxWidth": "100%"});
+        var popup_c9c6803aa992008d18a32379f5a865f3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_83e273d14709203763b809ca7965cc45 = $(`<div id="html_83e273d14709203763b809ca7965cc45" style="width: 100.0%; height: 100.0%;"><b>Ден 12 – 1</b>: Dublin Port Ferry<br>Ферибот до Холихед / UK</div>`)[0];
-            popup_e11b341e7ef352f50c09227ebca87c3d.setContent(html_83e273d14709203763b809ca7965cc45);
+            var html_e17ff61fb6fd7af4f94fd0510a887e79 = $(`<div id="html_e17ff61fb6fd7af4f94fd0510a887e79" style="width: 100.0%; height: 100.0%;"><b>Ден 12 – 1</b>: Dublin Port Ferry<br>Ферибот до UK</div>`)[0];
+            popup_c9c6803aa992008d18a32379f5a865f3.setContent(html_e17ff61fb6fd7af4f94fd0510a887e79);
         
 
-        marker_6242366ddf486adc55a77e373360317b.bindPopup(popup_e11b341e7ef352f50c09227ebca87c3d)
+        marker_c698b260e4ec85d27a86ae6e1a1d99ae.bindPopup(popup_c9c6803aa992008d18a32379f5a865f3)
         ;
 
         
     
     
-            marker_6242366ddf486adc55a77e373360317b.bindTooltip(
+            marker_c698b260e4ec85d27a86ae6e1a1d99ae.bindTooltip(
                 `<div>
                      Ден 12: Dublin Port Ferry
                  </div>`,
@@ -1303,30 +1307,30 @@
             );
         
     
-            var layer_control_76b64226c9a4bd078592ff44864b1ed7 = {
+            var layer_control_ee1fa82bd10ad33a49aa67f1a53a8f63 = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_3ccdbf4867889b108ac4724fcf5b89de,
+                    "openstreetmap" : tile_layer_1e21f3190ac4aed8528eeae4d370ecf4,
                 },
                 overlays :  {
-                    "\u0414\u0435\u043d 1" : feature_group_c4b52fed2fc25d319e5656ab8e3fee86,
-                    "\u0414\u0435\u043d 2" : feature_group_8d2357494ea880ff3a95a12ce75fd944,
-                    "\u0414\u0435\u043d 3" : feature_group_862f24ed8f92bdec50dd4e22e85b1fe2,
-                    "\u0414\u0435\u043d 4" : feature_group_8e325c6b99059b496e0a778de67ef9d1,
-                    "\u0414\u0435\u043d 5" : feature_group_b67471bdc1e58b7abe07bf0adfdf9684,
-                    "\u0414\u0435\u043d 6" : feature_group_9ffc804ca647334fdf82bcc4511f26c4,
-                    "\u0414\u0435\u043d 7" : feature_group_d19df9f808fcfe0b3a70d9b0cd7d3864,
-                    "\u0414\u0435\u043d 8" : feature_group_ccf47367ff775fbc07c70d6a7f5cc118,
-                    "\u0414\u0435\u043d 9" : feature_group_6ac2873c189937fee6d52338e2e9618f,
-                    "\u0414\u0435\u043d 10" : feature_group_2094d83cc152cb33fcfd1b4dd0a46659,
-                    "\u0414\u0435\u043d 11" : feature_group_3a5e6e6c67e2f5fc50ef9d6ef45bde8f,
-                    "\u0414\u0435\u043d 12" : feature_group_798f0a3c69b2f25ae946402ebc37eaf8,
+                    "\u003cspan style=\u0027color:red;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 1\u003c/b\u003e\u003c/span\u003e" : feature_group_be782296ae4ffd3930b6794bfd37f6f1,
+                    "\u003cspan style=\u0027color:blue;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 2\u003c/b\u003e\u003c/span\u003e" : feature_group_8429523e5b92c64cf0c41b327bd5738c,
+                    "\u003cspan style=\u0027color:green;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 3\u003c/b\u003e\u003c/span\u003e" : feature_group_e7fd4e76d8cde22a8376564a148736b4,
+                    "\u003cspan style=\u0027color:purple;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 4\u003c/b\u003e\u003c/span\u003e" : feature_group_df49bc47b831f373706e018618c6c0da,
+                    "\u003cspan style=\u0027color:orange;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 5\u003c/b\u003e\u003c/span\u003e" : feature_group_bca947eb665bf92fc5bbb0e81206d94c,
+                    "\u003cspan style=\u0027color:darkred;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 6\u003c/b\u003e\u003c/span\u003e" : feature_group_c7e3ed85cb8c70b39435070a611d621a,
+                    "\u003cspan style=\u0027color:darkblue;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 7\u003c/b\u003e\u003c/span\u003e" : feature_group_dc36b0046a245182ff5fd42c02f1372f,
+                    "\u003cspan style=\u0027color:darkgreen;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 8\u003c/b\u003e\u003c/span\u003e" : feature_group_1195b7d6714dfb4d037dac9f548e984a,
+                    "\u003cspan style=\u0027color:pink;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 9\u003c/b\u003e\u003c/span\u003e" : feature_group_bfaf9aabef28a1767faf56b2218a12ec,
+                    "\u003cspan style=\u0027color:cadetblue;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 10\u003c/b\u003e\u003c/span\u003e" : feature_group_4bfb19d038d791ab258b21d2a0c49a95,
+                    "\u003cspan style=\u0027color:lightblue;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 11\u003c/b\u003e\u003c/span\u003e" : feature_group_809e7b6ac7c1caafc86086934bdc62f7,
+                    "\u003cspan style=\u0027color:gray;\u0027\u003e\u003cb\u003e\u0414\u0435\u043d 12\u003c/b\u003e\u003c/span\u003e" : feature_group_ff2d8e51467e1535a928df851a6d0602,
                 },
             };
             L.control.layers(
-                layer_control_76b64226c9a4bd078592ff44864b1ed7.base_layers,
-                layer_control_76b64226c9a4bd078592ff44864b1ed7.overlays,
+                layer_control_ee1fa82bd10ad33a49aa67f1a53a8f63.base_layers,
+                layer_control_ee1fa82bd10ad33a49aa67f1a53a8f63.overlays,
                 {"autoZIndex": true, "collapsed": false, "position": "topright"}
-            ).addTo(map_4d221c7e7058bc703745af4544204b05);
+            ).addTo(map_c7fbd329465c72f7ffb3be96071536d5);
         
 </script>
 </html>
